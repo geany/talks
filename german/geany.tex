@@ -26,7 +26,7 @@ in head/foot}%
 \usepackage{graphicx}
 \title{Geany -- Just Another Editor}
 \author{Frank Lanitz \\ frank@frank.uvena.de}
-\date{2009-03-12 @ LUG-Jena}
+\date{2009-03-14 @ CLT}
 \usepackage{listings,color}
 \usepackage{courier}
 \usepackage{tikz}
@@ -99,76 +99,76 @@ in head/foot}%
 	\end{figure}
 \end{frame}
 
-\begin{frame}
-	\frametitle{Codeschnipsel}
-	\begin{block}{}
-		\begin{itemize}
-			\item Einfaches Definieren über Key-Value-Konfigurationsdatei
-				  \texttt{snippets.conf}
-			\item Aufruf über Schlagwort + Tastenkombination (frei wählbar)
-			\item Dateitypspezifische Ersetzungen möglich
-			\item Platzhalter zusätzlich für
-				\begin{itemize}
-					\item Neupositionierung des Cursors (auch mehrmals)
-					\item Einrückungen basierend auf aktuellen Einstellungen
-						  werden übernommen
-				\end{itemize}
-			\item Verschachtelung möglich
-			\item Lokal und global definierbar; lokale Einstellung
-				  ergänzt bzw. überschreibt globale Einstellung
-		\end{itemize}
-	\end{block}
-\end{frame}
+%\begin{frame}
+	%\frametitle{Codeschnipsel}
+	%\begin{block}{}
+		%\begin{itemize}
+			%\item Einfaches Definieren über Key-Value-Konfigurationsdatei
+				  %\texttt{snippets.conf}
+			%\item Aufruf über Schlagwort + Tastenkombination (frei wählbar)
+			%\item Dateitypspezifische Ersetzungen möglich
+			%\item Platzhalter zusätzlich für
+				%\begin{itemize}
+					%\item Neupositionierung des Cursors (auch mehrmals)
+					%\item Einrückungen basierend auf aktuellen Einstellungen
+						  %werden übernommen
+				%\end{itemize}
+			%\item Verschachtelung möglich
+			%\item Lokal und global definierbar; lokale Einstellung
+				  %ergänzt bzw. überschreibt globale Einstellung
+		%\end{itemize}
+	%\end{block}
+%\end{frame}
 
-\begin{frame}[containsverbatim]
-	\frametitle{Codeschnipsel Beispiele I}
-	\begin{block}{Beispiel für C++}
-		\begin{figure}[!h]
-			\begin{lstlisting}[frame=none]
-[Special]
-brace_open=\n{\n\t
-brace_close=}\n
-block=\n{\n\t%cursor%\n}
-block_cursor=\n{\n\t%cursor%\n}\n%cursor%
+%\begin{frame}[containsverbatim]
+	%\frametitle{Codeschnipsel Beispiele I}
+	%\begin{block}{Beispiel für C++}
+		%\begin{figure}[!h]
+			%\begin{lstlisting}[frame=none]
+%[Special]
+%brace_open=\n{\n\t
+%brace_close=}\n
+%block=\n{\n\t%cursor%\n}
+%block_cursor=\n{\n\t%cursor%\n}\n%cursor%
 
-[C++]
-for=for (int i = 0; i < %cursor%; i++)%brace_open%\n%brace_close%
-			\end{lstlisting}
-		\end{figure}
-	\end{block}
+%[C++]
+%for=for (int i = 0; i < %cursor%; i++)%brace_open%\n%brace_close%
+			%\end{lstlisting}
+		%\end{figure}
+	%\end{block}
 
-	\begin{block}{Ergibt}
-		\begin{figure}[!h]
-			\begin{lstlisting}[frame=none, language=C++]
-for (int i = 0; i < %csr%;; i++)
-{
-	%csr%;
-}
-%csr%;
-			\end{lstlisting}
-		\end{figure}
-	\end{block}
-\end{frame}
+	%\begin{block}{Ergibt}
+		%\begin{figure}[!h]
+			%\begin{lstlisting}[frame=none, language=C++]
+%for (int i = 0; i < %csr%;; i++)
+%{
+	%%csr%;
+%}
+%%csr%;
+			%\end{lstlisting}
+		%\end{figure}
+	%\end{block}
+%\end{frame}
 
-\begin{frame}
-	\frametitle{Tastaturkürzel}
-	\begin{block}{}
-		\centering
-		\begin{table}[h!]
-			\begin{tabular}{ll}
-				\textbf{Funktion} & \textbf{Tastaturkürzel} \\ \hline
-				Aktuelle Zeile verdoppeln (oder Auswahl) & Strg + D \\
-				Zeilen tauschen & Strg + T \\
-				Aufrufhinweise anzeigen & Alt + Leer \\
-				(Code)- Schnipsel vervollständigen & Tab \\
-			%	Markieren (Wort, Zeile, Absatz) & Alt + Umschalt + [W \| L \| P]
-				Programm komplieren / make aufrufen & F9 bzw. Shift-F9
-			\end{tabular}
-		\end{table}
-	\end{block}
-\pause
-Mehr nützliche Tastaturkürzel gibt es in der Manual.
-\end{frame}
+%\begin{frame}
+	%\frametitle{Tastaturkürzel}
+	%\begin{block}{}
+		%\centering
+		%\begin{table}[h!]
+			%\begin{tabular}{ll}
+				%\textbf{Funktion} & \textbf{Tastaturkürzel} \\ \hline
+				%Aktuelle Zeile verdoppeln (oder Auswahl) & Strg + D \\
+				%Zeilen tauschen & Strg + T \\
+				%Aufrufhinweise anzeigen & Alt + Leer \\
+				%(Code)- Schnipsel vervollständigen & Tab \\
+			%%	Markieren (Wort, Zeile, Absatz) & Alt + Umschalt + [W \| L \| P]
+				%Programm komplieren / make aufrufen & F9 bzw. Shift-F9
+			%\end{tabular}
+		%\end{table}
+	%\end{block}
+%\pause
+%Mehr nützliche Tastaturkürzel gibt es in der Manual.
+%\end{frame}
 
 \section{Plugins}
 \begin{frame}
@@ -198,7 +198,6 @@ Mehr nützliche Tastaturkürzel gibt es in der Manual.
 	\frametitle{Plugins für Geany}
 	\begin{block}{Plugins}
 		\begin{itemize}
-			\item \textbf{GeanyLUA} - Anbindung an LUA
 			\item \textbf{GeanyVC} - Anbindung an populäre
 				Versions\-ver\-waltungs\-systeme wie git, svn, svk, cvs
 			\item \textbf{GeanyLaTeX} - Unterstützung bei Erstellung von
@@ -210,27 +209,96 @@ Mehr nützliche Tastaturkürzel gibt es in der Manual.
 	\end{block}
 \end{frame}
 
+%\section{Plugins im Detail}
+%\begin{frame}
+	%\frametitle{GeanyVC - Die Anbindung an svn \& Co}
+	%\begin{block}{}
+		%\begin{itemize}
+			%\item
+		%\end{itemize}
+	%\end{block}
+%\end{frame}
 
-\begin{frame}[allowframebreak]
-	\frametitle{Installation}
-	\begin{block}{autotools}
+%\begin{frame}
+	%\frametitle{GeanyLaTeX - \LaTeXe mit Geany}
+	%\begin{columns}[c]
+		%\column[c]{3cm}
+			%\centering{%\includegraphics[width=2.5cm]{img/latex.png}}
+			%\huge \LaTeXe}
+		%\column{7cm}
+			%\begin{block}{}
+				%\begin{itemize}
+					%\item Einfügen von Sonderzeichen und Umwandlung von
+						  %Sonderzeichen in \TeX-Schreibweise beim Tippen
+					%\item Unterstützung beim Einfügen von Lesezeichen,
+						  %Verweisen und bibliographischen Einträgen
+					%\item Formatierungen
+					%\item \LaTeX-Assistent zum schnellen Erstellen von
+						  %Dokumenten
+				%\end{itemize}
+			%\end{block}
+	%\end{columns}
+%\end{frame}
+
+%\begin{frame}
+	%\frametitle{Spellcheck - Die Rechtschreibprüfung}
+	%\begin{block}{}
+		%\begin{itemize}
+			%\item
+		%\end{itemize}
+	%\end{block}
+%\end{frame}
+
+%\begin{frame}[allowframebreak]
+	%\frametitle{Installation}
+	%\begin{block}{autotools}
+		%\begin{itemize}
+			%\item \texttt{./configure \&\& make \&\& make install}
+		%\end{itemize}
+	%\end{block}
+	%\pause
+	%\begin{block}{waf}
+		%\begin{itemize}
+			%\item \texttt{./waf configure \&\& ./waf build \&\& ./waf install}
+		%\end{itemize}
+	%\end{block}
+	%\pause
+	%\begin{block}{Vielleicht nützliche Buildparameter}
+		%\begin{itemize}
+			%\item \texttt{enable-binreloc:} Benutzt nur
+			 %relative Pfade für freies Installieren im System
+			%\item \texttt{disable-plugins:} Ohne Pluginsupport kompilieren
+			%\item \texttt{disable-vte:} Ohne Terminalsupport kompilieren
+		%\end{itemize}
+	%\end{block}
+%\end{frame}
+
+
+\section{Mitmachen}
+\begin{frame}
+	\frametitle{Helfen - aber wie?}
+	\begin{block}{Helfen - aber wie?}
 		\begin{itemize}
-			\item \texttt{./configure \&\& make \&\& make install}
+			\item Bugs finden und reporten
+			\item Featurerequests einbringen und/oder umsetzen
+			\item Plugins beitragen
+			\item Übersetzungen in weitere Sprachen
+			\item Dokumentation schreiben und verbessern
 		\end{itemize}
 	\end{block}
 	\pause
-	\begin{block}{waf}
+	\begin{block}{Wir suchen ... }
 		\begin{itemize}
-			\item \texttt{./waf configure \&\& ./waf build \&\& ./waf install}
-		\end{itemize}
-	\end{block}
-	\pause
-	\begin{block}{Vielleicht nützliche Buildparameter}
-		\begin{itemize}
-			\item \texttt{enable-binreloc:} Benutzt nur
-			 relative Pfade für freies Installieren im System
-			\item \texttt{disable-plugins:} Ohne Pluginsupport kompilieren
-			\item \texttt{disable-vte:} Ohne Terminalsupport kompilieren
+			\item Unterst"utzung bei der Verbesserung der Version f"ur
+				  Windows (und MacOSX)
+			\pause
+			\item Unterst"utzung in Python u.a. zur Erstellung eines
+				  Plugininterface in Python
+			\pause
+			\item Aufbau eines Systemes f"ur automatisierte Unittests
+			\pause
+			\item Übersetzer und Dokumentationsschreiber
+			\pause
 		\end{itemize}
 	\end{block}
 \end{frame}
@@ -254,19 +322,6 @@ Mehr nützliche Tastaturkürzel gibt es in der Manual.
 	\end{block}
 \end{frame}
 
-\section{Mitmachen}
-\begin{frame}
-	\frametitle{Helfen - aber wie?}
-	\begin{block}{Helfen -- aber wie?}
-		\begin{itemize}
-			\item Bugs finden und reporten
-			\item Featurerequests einbringen und/oder umsetzen
-			\item Plugins beitragen
-			\item Übersetzungen in weitere Sprachen
-			\item Dokumentation schreiben und verbessern
-		\end{itemize}
-	\end{block}
-\end{frame}
 
 \begin{frame}[plain]
 	\frametitle{Auf Wiedersehen}
