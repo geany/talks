@@ -1,0 +1,282 @@
+\documentclass[compress]{beamer}
+\usetheme{Warsaw}
+\usecolortheme{seagull}
+\usefonttheme[onlylarge]{structurebold}
+\setbeamerfont*{frametitle}{size=\normalsize,series=\bfseries}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}
+{%
+\begin{beamercolorbox}[wd=0.5\textwidth,ht=3ex,dp=1.5ex,leftskip=.5em,rightskip=.5em]{author
+in head/foot}%
+\usebeamerfont{author in head/foot}%
+\hfill\insertshortauthor%
+\end{beamercolorbox}%
+\vspace*{-4.5ex}\hspace*{0.5\textwidth}%
+\begin{beamercolorbox}[wd=0.5\textwidth,ht=3ex,dp=1.5ex,left,leftskip=.5em]{title
+in head/foot}%
+\usebeamerfont{title in head/foot}%
+\insertshorttitle\hfill\insertframenumber/\inserttotalframenumber%
+\end{beamercolorbox}%
+}
+\logo{\includegraphics[height=0.5cm]{geany.png}}
+\beamertemplatesolidbackgroundcolor{black!5}
+\beamertemplatetransparentcovered
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage{graphicx}
+\title{Geany -- Just Another Editor}
+\author{Frank Lanitz \\ frank@frank.uvena.de}
+\date{2009-03-12 @ LUG-Jena}
+\usepackage{listings,color}
+\usepackage{courier}
+\usepackage{tikz}
+\lstset{basicstyle=\ttfamily\scriptsize}
+\lstset{showspaces=false}
+\lstset{showtabs=false}
+\lstset{showstringspaces=false}
+\lstset{keywordstyle=\bfseries}
+\lstset{tabsize=4}
+\lstset{frameround=ffff}
+\lstset{extendedchars=true}
+\lstset{stringstyle=\ttfamily}
+\lstset{commentstyle=\ttfamily}
+\lstset{captionpos=b}
+
+\begin{document}
+\frame{\titlepage}
+\frame{\tableofcontents}
+
+\section{Einordnung von Geany}
+\begin{frame}
+	\frametitle{Geany in die Welt von Anjuta, emacs, vim \& co}
+	\begin{block}{Was ist Geany?}
+		\begin{itemize}
+			\item Entwicklungsumgebung
+			\item Entwicklung seit 2005
+			\item Aktuelle Version 0.16 vom 15. Februar 2009
+			\item Ziel: Geringe Systemanforderungen und wenige
+				  Abhängigkeiten zu anderen Paketen
+			\item Realisiert in C mit Teilen in C++
+			\item Basierend auf Scintilla und GTK2 ($>=$ 2.8)
+			\item Lizenz: GPLv2+
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Einordnung von Geany in die Welt von Anjuta, emacs, vim \& co}
+	\begin{figure}[ht]
+		\centering
+ 		\footnotesize
+		\input{img/geany_diagramm.tex}
+	\end{figure}
+\end{frame}
+
+
+\section{Features}
+\begin{frame}[allowframebreak]
+	\frametitle{Features von Geany}
+	\begin{block}{Fähigkeiten von Geany}
+		\begin{itemize}
+			\item Syntaxhervorherbung für verschiedenste Dateitypen
+			\item Symbolbrowser zum einfachen Navigieren innerhalb
+			      eines Dokumentes
+			\item Autovervollständigung von bekannten Symbolen (wie
+				  Funktionen, Variablen, Makros etc.)
+			\item Plattformunabhängig (Linux, Unix, Windows, ....)
+			\item Pluginschnittstelle für Plugins in C und Lua
+			\item Verwendung von vordefinierten (Code-) Schnipseln
+			\item Einfache Projektverwaltung
+			\item Verschiedenste Funktionen zum Formatieren von Quellcode
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+	\begin{figure}
+		\includegraphics[scale=0.3]{img/C_mit_symbol_2.png}\\
+		\tiny C in Geany
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Codeschnipsel}
+	\begin{block}{}
+		\begin{itemize}
+			\item Einfaches Definieren über Key-Value-Konfigurationsdatei
+				  \texttt{snippets.conf}
+			\item Aufruf über Schlagwort + Tastenkombination (frei wählbar)
+			\item Dateitypspezifische Ersetzungen möglich
+			\item Platzhalter zusätzlich für
+				\begin{itemize}
+					\item Neupositionierung des Cursors (auch mehrmals)
+					\item Einrückungen basierend auf aktuellen Einstellungen
+						  werden übernommen
+				\end{itemize}
+			\item Verschachtelung möglich
+			\item Lokal und global definierbar; lokale Einstellung
+				  ergänzt bzw. überschreibt globale Einstellung
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}[containsverbatim]
+	\frametitle{Codeschnipsel Beispiele I}
+	\begin{block}{Beispiel für C++}
+		\begin{figure}[!h]
+			\begin{lstlisting}[frame=none]
+[Special]
+brace_open=\n{\n\t
+brace_close=}\n
+block=\n{\n\t%cursor%\n}
+block_cursor=\n{\n\t%cursor%\n}\n%cursor%
+
+[C++]
+for=for (int i = 0; i < %cursor%; i++)%brace_open%\n%brace_close%
+			\end{lstlisting}
+		\end{figure}
+	\end{block}
+
+	\begin{block}{Ergibt}
+		\begin{figure}[!h]
+			\begin{lstlisting}[frame=none, language=C++]
+for (int i = 0; i < %csr%;; i++)
+{
+	%csr%;
+}
+%csr%;
+			\end{lstlisting}
+		\end{figure}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Tastaturkürzel}
+	\begin{block}{}
+		\centering
+		\begin{table}[h!]
+			\begin{tabular}{ll}
+				\textbf{Funktion} & \textbf{Tastaturkürzel} \\ \hline
+				Aktuelle Zeile verdoppeln (oder Auswahl) & Strg + D \\
+				Zeilen tauschen & Strg + T \\
+				Aufrufhinweise anzeigen & Alt + Leer \\
+				(Code)- Schnipsel vervollständigen & Tab \\
+			%	Markieren (Wort, Zeile, Absatz) & Alt + Umschalt + [W \| L \| P]
+				Programm komplieren / make aufrufen & F9 bzw. Shift-F9
+			\end{tabular}
+		\end{table}
+	\end{block}
+\pause
+Mehr nützliche Tastaturkürzel gibt es in der Manual.
+\end{frame}
+
+\section{Plugins}
+\begin{frame}
+	\frametitle{Plugins für Geany}
+	\begin{block}{}
+		\begin{itemize}
+			\item Derzeit in C direkt unterstützt; Lua Plugins über
+				  GeanyLUA möglich
+			\item Einfaches Plugin mit ca. 35 Zeilen Code möglich
+			\item Möglichkeit Callbacks für Events zu registrieren. Z.B.
+				\begin{itemize}
+					\item User tippt
+					\item Dokument wird geöffnet/geschlossen/gespeichert
+				\end{itemize}
+			\item Zugriff auf alle wichtigen Elemente von Geany wie
+				\begin{itemize}
+					\item Werkzeugleiste
+					\item Seitenleiste
+					\item Dateimenü
+					\item Editorkomponente
+				\end{itemize}
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Plugins für Geany}
+	\begin{block}{Plugins}
+		\begin{itemize}
+			\item \textbf{GeanyLUA} - Anbindung an LUA
+			\item \textbf{GeanyVC} - Anbindung an populäre
+				Versions\-ver\-waltungs\-systeme wie git, svn, svk, cvs
+			\item \textbf{GeanyLaTeX} - Unterstützung bei Erstellung von
+				\LaTeX-Dokumenten
+			\item \textbf{Spellcheck} - Rechtschreibprüfung
+			\item \textbf{GeanyPrj} - Erweiterter Projektsupport
+			\item \textbf{GeanyDoc} - Komfortabler Zugriff auf Dokumentation
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+
+\begin{frame}[allowframebreak]
+	\frametitle{Installation}
+	\begin{block}{autotools}
+		\begin{itemize}
+			\item \texttt{./configure \&\& make \&\& make install}
+		\end{itemize}
+	\end{block}
+	\pause
+	\begin{block}{waf}
+		\begin{itemize}
+			\item \texttt{./waf configure \&\& ./waf build \&\& ./waf install}
+		\end{itemize}
+	\end{block}
+	\pause
+	\begin{block}{Vielleicht nützliche Buildparameter}
+		\begin{itemize}
+			\item \texttt{enable-binreloc:} Benutzt nur
+			 relative Pfade für freies Installieren im System
+			\item \texttt{disable-plugins:} Ohne Pluginsupport kompilieren
+			\item \texttt{disable-vte:} Ohne Terminalsupport kompilieren
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\section{Download \& Kontakt}
+\begin{frame}
+	\frametitle{Download \& Kontakt}
+	\begin{block}{Download}
+		\begin{itemize}
+			\item Über die Homepage www.geany.org
+			\item Direkt aus dem Subversion oder GIT Repository
+			\item Aus den Repositories der Distributionen
+		\end{itemize}
+	\end{block}
+	\begin{block}{Kontakt}
+		\begin{itemize}
+			\item \textbf{WWW:} http://www.geany.org
+			\item \textbf{IRC:} \#geany bzw. \#geany-de auf freenode
+			\item \textbf{Mailinglisten:} Verschiedene Mailinglisten (siehe Website)
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\section{Mitmachen}
+\begin{frame}
+	\frametitle{Helfen - aber wie?}
+	\begin{block}{Helfen -- aber wie?}
+		\begin{itemize}
+			\item Bugs finden und reporten
+			\item Featurerequests einbringen und/oder umsetzen
+			\item Plugins beitragen
+			\item Übersetzungen in weitere Sprachen
+			\item Dokumentation schreiben und verbessern
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}[plain]
+	\frametitle{Auf Wiedersehen}
+	\begin{figure}[ht]
+		\includegraphics{geany.png}
+	\end{figure}
+
+	\begin{center}
+	\huge Auf Wiedersehen auf \\ www.geany.org
+	\end{center}
+\end{frame}
+
+\end{document}
