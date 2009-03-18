@@ -1,0 +1,50 @@
+\begin{frame}
+	\frametitle{Codeschnipsel}
+	\begin{block}{}
+		\begin{itemize}
+			\item Einfaches Definieren über Key-Value-Konfigurationsdatei
+				  \texttt{snippets.conf}
+			\item Aufruf über Schlagwort + Tastenkombination (frei wählbar)
+			\item Dateitypspezifische Ersetzungen möglich
+			\item Platzhalter zusätzlich für
+				\begin{itemize}
+					\item Neupositionierung des Cursors (auch mehrmals)
+					\item Einrückungen basierend auf aktuellen Einstellungen
+						  werden übernommen
+				\end{itemize}
+			\item Verschachtelung möglich
+			\item Lokal und global definierbar; lokale Einstellung
+				  ergänzt bzw. überschreibt globale Einstellung
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}[containsverbatim]
+	\frametitle{Codeschnipsel Beispiele I}
+	\begin{block}{Beispiel für C++}
+		\begin{figure}[!h]
+			\begin{lstlisting}[frame=none]
+[Special]
+brace_open=\n{\n\t
+brace_close=}\n
+block=\n{\n\t%cursor%\n}
+block_cursor=\n{\n\t%cursor%\n}\n%cursor%
+
+[C++]
+for=for (int i = 0; i < %cursor%; i++)%brace_open%\n%brace_close%
+			\end{lstlisting}
+		\end{figure}
+	\end{block}
+
+	\begin{block}{Ergibt}
+		\begin{figure}[!h]
+			\begin{lstlisting}[frame=none, language=C++]
+for (int i = 0; i < %csr%;; i++)
+{
+	%csr%;
+}
+%csr%;
+			\end{lstlisting}
+		\end{figure}
+	\end{block}
+\end{frame}

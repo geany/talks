@@ -1,0 +1,43 @@
+\documentclass[compress]{beamer}
+\usetheme{Warsaw}
+\usecolortheme{seagull}
+\usefonttheme[onlylarge]{structurebold}
+\setbeamerfont*{frametitle}{size=\normalsize,series=\bfseries}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}
+{%
+\begin{beamercolorbox}[wd=0.5\textwidth,ht=3ex,dp=1.5ex,leftskip=.5em,rightskip=.5em]{author
+in head/foot}%
+\usebeamerfont{author in head/foot}%
+\hfill\insertshortauthor%
+\end{beamercolorbox}%
+\vspace*{-4.5ex}\hspace*{0.5\textwidth}%
+\begin{beamercolorbox}[wd=0.5\textwidth,ht=3ex,dp=1.5ex,left,leftskip=.5em]{title
+in head/foot}%
+\usebeamerfont{title in head/foot}%
+\insertshorttitle\hfill\insertframenumber/\inserttotalframenumber%
+\end{beamercolorbox}%
+}
+\logo{\includegraphics[height=0.5cm]{img/geany.png}}
+\beamertemplatesolidbackgroundcolor{black!5}
+\beamertemplatetransparentcovered
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage{graphicx}
+\title{Geany -- Just Another Editor}
+\author{Frank Lanitz \\ frank@frank.uvena.de}
+\date{2009-03-14 @ CLT}
+\usepackage{listings,color}
+\usepackage{courier}
+\usepackage{tikz}
+\lstset{basicstyle=\ttfamily\scriptsize}
+\lstset{showspaces=false}
+\lstset{showtabs=false}
+\lstset{showstringspaces=false}
+\lstset{keywordstyle=\bfseries}
+\lstset{tabsize=4}
+\lstset{frameround=ffff}
+\lstset{extendedchars=true}
+\lstset{stringstyle=\ttfamily}
+\lstset{commentstyle=\ttfamily}
+\lstset{captionpos=b}
