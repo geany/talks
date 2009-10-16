@@ -1,94 +1,109 @@
 \section{Plugins}
 \begin{frame}
-	\frametitle{Plugins für Geany}
-	\begin{block}{}
-		\begin{itemize}
-			\item Eine große Anzahl der Plugins werden über ein 
-				  gemeinsames Paket angeboten
-			\item Derzeit in C direkt unterstützt; Lua Plugins über
-				  GeanyLUA möglich
-			\item Einfaches Plugin mit ca. 35 Zeilen Code möglich
-			\item Möglichkeit Callbacks für Events zu registrieren. Z.B.
-				\begin{itemize}
-					\item User tippt
-					\item Dokument wird geöffnet/geschlossen/gespeichert
-				\end{itemize}
-			\item Zugriff auf alle wichtigen Elemente von Geany wie
-				\begin{itemize}
-					\item Werkzeugleiste
-					\item Seitenleiste
-					\item Dateimenü
-					\item Editorkomponente
-				\end{itemize}
-		\end{itemize}
-	\end{block}
+  \frametitle{Plugins für Geany}
+  \begin{block}{}
+    \begin{itemize}
+    \item Eine große Anzahl der Plugins werden über ein gemeinsames
+      Paket angeboten
+    \item Derzeit in C direkt unterstützt; Lua Plugins über GeanyLUA
+      möglich
+    \item Einfaches Plugin mit ca. 35 Zeilen Code möglich
+    \item Möglichkeit Callbacks für Events zu registrieren. Z.B.
+      \begin{itemize}
+      \item User tippt
+      \item Dokument wird geöffnet/geschlossen/gespeichert
+      \end{itemize}
+    \item Zugriff auf alle wichtigen Elemente von Geany via API:
+      \begin{itemize}
+      \item Werkzeugleiste
+      \item Seitenleiste
+      \item Dateimenü
+      \item Editorkomponente
+      \end{itemize}
+    \end{itemize}
+  \end{block}
 \end{frame}
 
 \begin{frame}
-	\frametitle{Plugins für Geany}
-	\begin{block}{Plugins}
-		\begin{itemize}
-			\item \textbf{GeanyVC} - Anbindung an populäre
-				Versions\-ver\-waltungs\-systeme wie git, svn, svk, cvs
-			\item \textbf{GeanyLaTeX} - Unterstützung bei Erstellung von
-				\LaTeX-Dokumenten
-			\item \textbf{Spellcheck} - Rechtschreibprüfung
-			\item \textbf{GeanyPrj} - Erweiterter Projektsupport
-			\item \textbf{GeanyDoc} - Komfortabler Zugriff auf Dokumentation
-		\end{itemize}
-	\end{block}
+  \frametitle{Plugins für Geany}
+  \begin{block}{Plugins}
+    \begin{itemize}
+    \item \textbf{GeanyVC} - Anbindung an populäre
+      Versions\-ver\-waltungs\-systeme wie git, svn, svk, cvs
+    \item \textbf{GeanyLaTeX} - Unterstützung bei Erstellung von
+      \LaTeX-Dokumenten
+    \item \textbf{Spellcheck} - Rechtschreibprüfung
+    \item \textbf{GeanyPrj} - Erweiterter Projektsupport
+    \item \textbf{GeanyDoc} - Komfortabler Zugriff auf Dokumentation
+    \item \textbf{Pretty-Print} - Reformatierung von XML-Dokumenten
+    \end{itemize}
+  \end{block}
 \end{frame}
 
-%\section{Plugins im Detail}
-%\begin{frame}
-	%\frametitle{GeanyVC - Die Anbindung an svn \& Co}
-	%\begin{block}{}
-		%\begin{itemize}
-			%\item
-		%\end{itemize}
-	%\end{block}
-%\end{frame}
-
+\section{Plugins im Detail}
 \begin{frame}
-	\frametitle{GeanyLaTeX - \LaTeXe mit Geany}
-	\begin{columns}[c]
-		\column[c]{2cm}
-			\huge \LaTeX
-		\column{8cm}
-			\begin{block}{}
-				\begin{itemize}
-					\item Einfügen von Sonderzeichen und Umwandlung von
-						  Sonderzeichen in \TeX-Schreibweise beim Tippen
-					\item Unterstützung beim Einfügen von Lesezeichen,
-						  Verweisen und bibliographischen Einträgen
-					\item Formatierungen
-					\item \LaTeX-Assistent zum schnellen Erstellen von
-						  Dokumenten
-				\end{itemize}
-			\end{block}
-	\end{columns}
+  \frametitle{GeanyVC - Die Anbindung an svn \& Co}
+  \begin{block}{}
+    \begin{itemize}
+    \item Unterstützt:
+      \begin{itemize}
+      \item Subversion (svn)
+      \item git
+      \item Bazaar (bzr)
+      \item CVS
+      \item Mercurial (hg)
+      \item svk
+      \end{itemize}
+    \item Anbindung verschiedene grundiegende Tätigkeiten wie commit,
+      add, log, blame/annotate
+    \item Steuerung über Tastaturbefehle möglich
+    \item Rechtschreibprüfung im Commit-Nachrichtendialog
+    \end{itemize}
+  \end{block}
 \end{frame}
 
 \begin{frame}
-	\frametitle{GeanySendMail}
-	\begin{itemize}
-		\item Plugin um geöffnete Dateien per Mail zu versenden
-		\item Unterstützung für
-			\begin{itemize}
-				\item Frei definierbarer Programmaufruf mit Platzhaltern
-					  für Dateinamen und Empfänger Mailadresse
-				\item Speicherung der letzten Zieladresse
-			\end{itemize}
-	\end{itemize}
+  \frametitle{GeanyLaTeX - \LaTeXe mit Geany}
+  \begin{columns}[c]
+    \column[c]{2cm} \huge \LaTeX \column{8cm}
+    \begin{block}{Fähigkeiten}
+      \begin{itemize}
+      \item Einfügen von Sonderzeichen und Umwandlung von
+        Sonderzeichen in \TeX-Schreibweise beim Tippen
+      \item Unterstützung beim Einfügen von Lesezeichen, Verweisen und
+        bibliographischen Einträgen
+      \item Formatierungen
+      \item \LaTeX-Assistent zum schnellen Erstellen von Dokumenten
+      \item Werkzeugliste mit wichtigsten Formatierungen
+      \end{itemize}
+    \end{block}
+  \end{columns}
 \end{frame}
 
-%\begin{frame}
-	%\frametitle{Spellcheck - Die Rechtschreibprüfung}
-	%\begin{block}{}
-		%\begin{itemize}
-			%\item
-		%\end{itemize}
-	%\end{block}
-%\end{frame}
+\begin{frame}
+  \frametitle{GeanySendMail}
+  \begin{itemize}
+  \item Plugin um geöffnete Dateien per Mail zu versenden
+  \item Unterstützung für
+    \begin{itemize}
+    \item Frei definierbarer Programmaufruf mit Platzhaltern für
+      Dateinamen und Empfänger Mailadresse
+    \item Speicherung der letzten Zieladresse
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Spellcheck - Die Rechtschreibprüfung}
+  \begin{block}{}
+    \begin{itemize}
+    \item Überprüfung während des Tippens oder für das komplette
+      Dokument
+    \item Vorschläge zur Rechtschreibung innerhalb des Kontextmenüs
+    \item Kann auf alle Rechtschreibsysteme zugreifen, die Enchant
+      unterstützt wie aspell, ispell, wmspell.
+    \end{itemize}
+  \end{block}
+\end{frame}
 
 
