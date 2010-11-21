@@ -10,15 +10,15 @@
     \item Einfaches Plugin mit ca. 35 Zeilen Code möglich
     \item Möglichkeit Callbacks für Events zu registrieren. Z.B.
       \begin{itemize}
-      \item User tippt
-      \item Dokument wird geöffnet/geschlossen/gespeichert
+        \item User tippt
+        \item Dokument wird geöffnet/geschlossen/gespeichert
       \end{itemize}
     \item Zugriff auf alle wichtigen Elemente von Geany via API:
       \begin{itemize}
-      \item Werkzeugleiste
-      \item Seitenleiste
-      \item Dateimenü
-      \item Editorkomponente
+        \item Werkzeugleiste
+        \item Seitenleiste
+        \item Dateimenü
+        \item Editorkomponente
       \end{itemize}
     \end{itemize}
   \end{block}
@@ -73,10 +73,11 @@
       \item Einfügen von Sonderzeichen und Umwandlung von
         Sonderzeichen in \TeX-Schreibweise beim Tippen
       \item Unterstützung beim Einfügen von Lesezeichen, Verweisen,
-		Befhlen, Umgebungen und bibliographischen Einträgen
+        Befhlen, Umgebungen und bibliographischen Einträgen
       \item Formatierungen
       \item \LaTeX-Assistent zum schnellen Erstellen von Dokumenten
       \item Werkzeugliste mit wichtigsten Formatierungen
+      \item Unterstützung bei einfachen BibTeX-Aufgaben
       \end{itemize}
     \end{block}
   \end{columns}
@@ -108,4 +109,40 @@
       unterstützt wie aspell, ispell, wmspell.
     \end{itemize}
   \end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{XML PrettyPrinter}
+    \begin{block}{}
+    \begin{itemize}
+        \item Unterstützt bei der Formatierung von XML-Dokumenten
+              in eine menschenfreundliche Form durch einfügen von
+              Leerzeichen und Zeilenumbrüchen basierend auf dem DOM
+        \item Basiert auf libXML2
+        \item Schnelles Formatieren des XML-Dokumentes
+    \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Addons -- Das generische Plugin}
+    \begin{block}{}
+        \begin{itemize}
+            \item Bietet eine Reihe von nützlichen Erweiterungen an
+            \begin{itemize}
+                \item \textbf{XML Tagging:} Ermöglich das Einfache Einfügen
+                      einer Markierung in XML-Tags
+                \item \textbf{Open URI:} Öffnet einen aktuell markierten
+                      Text im Browser
+                \item \textbf{Tasks:} Durchsucht Dokumente nach Markerungen
+                      wie »TODO« oder »FIXME« und listet sie für einfach
+                      Zugriff auf
+                \item \textbf{Systray:} Fügt ein Geany-Symbol in die
+                      Systemleiste ein.
+                \item \textbf{Bookmark List}: Bietet eine erweitere
+                      Lesezeichenübersicht für die aktuelle Datei an
+                \item ...
+            \end{itemize}
+        \end{itemize}
+    \end{block}
 \end{frame}
