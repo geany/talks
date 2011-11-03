@@ -45,14 +45,15 @@
      bordercolor="#666666"
      pagecolor="#ffffff"
      id="base"
-     inkscape:zoom="0.26552219"
-     inkscape:cx="1387.0734"
-     inkscape:cy="2061.3122"
+     inkscape:zoom="0.18893935"
+     inkscape:cx="1489.9606"
+     inkscape:cy="2106.4961"
      inkscape:window-x="0"
      inkscape:window-y="29"
-     inkscape:current-layer="g4470"
+     inkscape:current-layer="svg2"
      showgrid="false"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:snap-grids="false" />
   <defs
      id="defs4">
     <inkscape:perspective
@@ -1065,139 +1066,217 @@
        inkscape:collect="always" />
   </defs>
   <g
-     id="g4470">
+     id="g3610"
+     transform="translate(28.481078,132.16581)">
+    <rect
+       id="rect3305"
+       style="fill:#eeeeee;fill-opacity:1;stroke:#cccccc;stroke-width:7.57080841;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       y="744.94336"
+       x="150.6627"
+       ry="29.763584"
+       rx="38.738586"
+       height="829.47845"
+       width="933.37579" />
+    <text
+       xml:space="preserve"
+       id="text3307"
+       style="font-size:49.10807419px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       y="868.31653"
+       x="475.60138"><tspan
+         id="tspan3309"
+         style="font-size:73.66210938px;font-weight:bold;fill:#154374;fill-opacity:1"
+         y="868.31653"
+         x="475.60138">Fakten</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text3311"
+       style="font-size:57.29275131px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       y="976.94037"
+       x="206.23036"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3472"
+         x="206.23036"
+         y="976.94037">- Seit 2005 in Entwicklung</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3474"
+         x="206.23036"
+         y="1048.5563">- Entwicklungsumgebung</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3476"
+         x="206.23036"
+         y="1120.1722">- Ziel: Resourcenschonend &amp; </tspan><tspan
+         sodipodi:role="line"
+         id="tspan3478"
+         x="206.23036"
+         y="1191.7882">  wenige Abhängigkeiten </tspan><tspan
+         sodipodi:role="line"
+         id="tspan3480"
+         x="206.23036"
+         y="1263.4042">- Basierend auf Scintilla &amp; </tspan><tspan
+         sodipodi:role="line"
+         id="tspan3482"
+         x="206.23036"
+         y="1335.02">  2.12 &lt;= GTK2 &lt;= 3</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3484"
+         x="206.23036"
+         y="1406.636">- Umgesetzt in C und C++</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3486"
+         x="206.23036"
+         y="1478.252">- Lizenz: GPL2+</tspan></text>
+  </g>
+  <g
+     transform="translate(114.92213,695.00624)"
+     id="g3550">
+    <rect
+       id="rect3305-2"
+       style="fill:#eeeeee;fill-opacity:1;stroke:#cccccc;stroke-width:13.16029644;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       y="2396.2688"
+       x="14.409599"
+       ry="30.644129"
+       rx="113.69165"
+       height="774.92889"
+       width="2694.1172" />
+    <text
+       xml:space="preserve"
+       id="text3307-4"
+       style="font-size:49.10807419px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       y="2505.5486"
+       x="1229.2957"><tspan
+         id="tspan3309-9"
+         style="font-size:73.66210938px;font-weight:bold;fill:#154374;fill-opacity:1"
+         y="2505.5486"
+         x="1229.2957">Plugins</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text3311-0"
+       style="font-size:57.29275131px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       y="2625.4707"
+       x="105.84643"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3574"
+         x="105.84643"
+         y="2625.4707">GeanyVC - Anbindung an populäre Versionsverwaltungssysteme wie git, svn, bzr, hg, cvs</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3576"
+         x="105.84643"
+         y="2697.0867">GeanyLaTeX – Unterstützung bei Erstellung von LaTeX-Dokumenten</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3578"
+         x="105.84643"
+         y="2768.7026">Spellcheck – Rechtschreibprüfung</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3580"
+         x="105.84643"
+         y="2840.3186">GeanyPrj – Erweiterter Projektsupport</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3582"
+         x="105.84643"
+         y="2911.9346">GeanyDoc, Devhelp – Komfortabler Zugriff auf Dokumentation</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3584"
+         x="105.84643"
+         y="2983.5503">XML PrettyPrinter – Reformatierung von XML-Dokumenten</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3586"
+         x="105.84643"
+         y="3055.1663">Addons – Generisches Plugin mit verschiedenen, kleinen Hilfsfunktionen</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3588"
+         x="105.84643"
+         y="3126.7822">WebHelper – Ein Plugin mit integrierten Browser und HTML-Analyse.</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3590"
+         x="105.84643"
+         y="3198.3982" /></text>
+  </g>
+  <g
+     id="g3607"
+     transform="translate(-83.368278,148.14429)">
+    <image
+       width="1521.1602"
+       height="940.11096"
+       xlink:href="file:///daten/quellen/git/geany-talks/german/poster/img/geany_c_terminal_german.png"
+       id="image3323"
+       x="1419.3777"
+       y="665.51959" />
+  </g>
+  <image
+     y="2007.3665"
+     x="185.29965"
+     id="image3385"
+     xlink:href="file:///daten/quellen/git/geany-talks/german/poster/img/geany_plugin_manager_geanyvc_0.21.1.png"
+     height="812.06793"
+     width="925.62537" />
+  <g
+     id="g3479"
+     transform="translate(-346.49846,1295.8243)">
     <g
-       id="g3607">
+       transform="translate(1796.46,-48.960127)"
+       id="g3536">
       <rect
-         width="933.37579"
-         height="829.47845"
+         width="1311.5331"
+         height="869.4248"
          rx="38.738586"
          ry="29.763584"
          x="71.224884"
          y="722.50317"
          style="fill:#eeeeee;fill-opacity:1;stroke:#cccccc;stroke-width:7.57080841;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         id="rect3305" />
+         id="rect3305-3" />
       <text
          x="396.16357"
          y="845.87634"
          style="font-size:49.10807419px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         id="text3307"
+         id="text3307-2"
          xml:space="preserve"><tspan
            x="396.16357"
            y="845.87634"
            style="font-size:73.66210938px;font-weight:bold;fill:#154374;fill-opacity:1"
-           id="tspan3309">Fakten</tspan></text>
+           id="tspan3309-0">Features</tspan></text>
       <text
          sodipodi:linespacing="125%"
          x="126.79254"
          y="954.50018"
          style="font-size:57.29275131px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         id="text3311"
+         id="text3311-6"
          xml:space="preserve"><tspan
            y="954.50018"
            x="126.79254"
-           id="tspan3472"
-           sodipodi:role="line">- Seit 2005 in Entwicklung</tspan><tspan
+           sodipodi:role="line"
+           id="tspan3460">- Syntaxhervorhebung für &gt;30 Sprachen</tspan><tspan
            y="1026.1161"
            x="126.79254"
-           id="tspan3474"
-           sodipodi:role="line">- Entwicklungsumgebung</tspan><tspan
+           sodipodi:role="line"
+           id="tspan3462">- Autovervollständigung bekannter </tspan><tspan
            y="1097.7321"
            x="126.79254"
-           id="tspan3476"
-           sodipodi:role="line">- Ziel: Resourcenschonend &amp; </tspan><tspan
+           sodipodi:role="line"
+           id="tspan3464">  Makros, Symbole, Variablen etc.</tspan><tspan
            y="1169.348"
            x="126.79254"
-           id="tspan3478"
-           sodipodi:role="line">  wenige Abhängigkeiten </tspan><tspan
+           sodipodi:role="line"
+           id="tspan3466">- Symbolliste zur Navigation</tspan><tspan
            y="1240.964"
            x="126.79254"
-           id="tspan3480"
-           sodipodi:role="line">- Basierend auf Scintilla &amp; </tspan><tspan
+           sodipodi:role="line"
+           id="tspan3468">- Eingebetes Terminal</tspan><tspan
            y="1312.5798"
            x="126.79254"
-           id="tspan3482"
-           sodipodi:role="line">  2.12 &lt;= GTK2 &lt;= 3</tspan><tspan
+           sodipodi:role="line"
+           id="tspan3470">- Konfigurierbares Build-Menü</tspan><tspan
            y="1384.1958"
            x="126.79254"
-           id="tspan3484"
-           sodipodi:role="line">- Umgesetzt in C und C++</tspan><tspan
+           sodipodi:role="line"
+           id="tspan3473">- ...</tspan><tspan
            y="1455.8118"
            x="126.79254"
-           id="tspan3486"
-           sodipodi:role="line">- Lizenz: GPL2+</tspan></text>
-    </g>
-    <g
-       id="g3592"
-       transform="translate(79.089435,86.621762)">
-      <rect
-         width="2739.311"
-         height="854.01825"
-         rx="113.69165"
-         ry="30.644129"
-         x="14.409599"
-         y="2396.2688"
-         style="fill:#eeeeee;fill-opacity:1;stroke:#cccccc;stroke-width:13.16029644;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         id="rect3305-2" />
-      <text
-         x="1229.2957"
-         y="2505.5486"
-         style="font-size:49.10807419px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         id="text3307-4"
-         xml:space="preserve"><tspan
-           x="1229.2957"
-           y="2505.5486"
-           style="font-size:73.66210938px;font-weight:bold;fill:#154374;fill-opacity:1"
-           id="tspan3309-9">Plugins</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         x="105.84643"
-         y="2625.4707"
-         style="font-size:57.29275131px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         id="text3311-0"
-         xml:space="preserve"><tspan
-           y="2625.4707"
-           x="105.84643"
-           id="tspan3574"
-           sodipodi:role="line">GeanyVC - Anbindung an populäre Versionsverwaltungssysteme wie git, svn, bzr, hg, cvs</tspan><tspan
-           y="2697.0867"
-           x="105.84643"
-           id="tspan3576"
-           sodipodi:role="line">GeanyLaTeX – Unterstützung bei Erstellung von LaTeX-Dokumenten</tspan><tspan
-           y="2768.7026"
-           x="105.84643"
-           id="tspan3578"
-           sodipodi:role="line">Spellcheck – Rechtschreibprüfung</tspan><tspan
-           y="2840.3186"
-           x="105.84643"
-           id="tspan3580"
-           sodipodi:role="line">GeanyPrj – Erweiterter Projektsupport</tspan><tspan
-           y="2911.9346"
-           x="105.84643"
-           id="tspan3582"
-           sodipodi:role="line">GeanyDoc, Devhelp – Komfortabler Zugriff auf Dokumentation</tspan><tspan
-           y="2983.5503"
-           x="105.84643"
-           id="tspan3584"
-           sodipodi:role="line">XML PrettyPrinter – Reformatierung von XML-Dokumenten</tspan><tspan
-           y="3055.1663"
-           x="105.84643"
-           id="tspan3586"
-           sodipodi:role="line">Addons – Generisches Plugin mit verschiedenen, kleinen Hilfsfunktionen</tspan><tspan
-           y="3126.7822"
-           x="105.84643"
-           id="tspan3588"
-           sodipodi:role="line">WebHelper – Ein Plugin mit integrierten Browser und HTML-Analyse.</tspan><tspan
-           y="3198.3982"
-           x="105.84643"
-           id="tspan3590"
-           sodipodi:role="line"></tspan></text>
+           sodipodi:role="line"
+           id="tspan3475">- Für alles andere: Pluginschnittstelle</tspan></text>
     </g>
   </g>
-  <path
-     id="path2761"
-     style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#cccccc;stroke-width:4.09233952px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="M 30.698458,575.57063 L 30.698458,4187.0377 L 2945.0888,4187.0377 L 2945.0888,575.05388" />
   <path
      id="rect2160"
      style="fill:url(#linearGradient2374);fill-opacity:1;stroke:none;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
@@ -1226,137 +1305,12 @@
      xml:space="preserve"
      id="text4489"
      style="font-size:96px"
-     y="4142.0493"
-     x="150.53226"><tspan
+     y="4170.2734"
+     x="145.40292"><tspan
        id="tspan4491"
        style="font-size:96px;font-style:normal;font-weight:bold;fill:#cccccc;fill-opacity:1"
-       y="4142.0493"
-       x="150.53226">www.geany.org</tspan></text>
-  <g
-     id="layer2"
-     transform="matrix(4.2127698,0,0,4.2127698,2690.8486,3607.0377)">
-    <g
-       id="g6707"
-       transform="matrix(2.45274e-2,0,0,2.086758e-2,45.69054,36.1536)">
-      <rect
-         id="rect6709"
-         style="opacity:0.40206185;color:#000000;fill:url(#linearGradient6715);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
-         y="-150.69685"
-         x="-1559.2523"
-         height="478.35718"
-         width="1339.6335" />
-      <path
-         id="path6711"
-         style="opacity:0.40206185;color:#000000;fill:url(#radialGradient6717);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
-         d="M -219.61876,-150.68038 C -219.61876,-150.68038 -219.61876,327.65041 -219.61876,327.65041 C -76.744594,328.55086 125.78146,220.48075 125.78138,88.454235 C 125.78138,-43.572302 -33.655436,-150.68036 -219.61876,-150.68038 z " />
-      <path
-         id="path6713"
-         style="opacity:0.40206185;color:#000000;fill:url(#radialGradient6719);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
-         d="M -1559.2523,-150.68038 C -1559.2523,-150.68038 -1559.2523,327.65041 -1559.2523,327.65041 C -1702.1265,328.55086 -1904.6525,220.48075 -1904.6525,88.454235 C -1904.6525,-43.572302 -1745.2157,-150.68036 -1559.2523,-150.68038 z " />
-    </g>
-    <path
-       id="path4196"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#535353;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 11.28569,7.9626278 C 10.66069,7.9626278 10.254441,8.252808 10.004442,8.8063808 C 10.004441,8.8063808 3.5356915,25.909938 3.5356915,25.909938 C 3.5356915,25.909938 3.2856915,26.581497 3.2856915,27.691188 C 3.2856915,27.691188 3.2856915,37.341156 3.2856915,37.341156 C 3.2856915,38.423769 3.943477,38.966158 4.9419415,38.966156 L 43.50444,38.966156 C 44.489293,38.966156 45.09819,38.247976 45.09819,37.122406 L 45.09819,27.472438 C 45.09819,27.472438 45.204153,26.702015 45.00444,26.159938 L 38.28569,8.9626314 C 38.101165,8.4507246 37.648785,7.9745331 37.16069,7.9626278 L 11.28569,7.9626278 z " />
-    <path
-       id="path4170"
-       style="fill:url(#linearGradient4234);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.02044296px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 3.2735915,26.996812 L 4.0381936,26.304597 L 41.647883,26.367097 L 45.11029,26.684395 L 45.11029,37.122927 C 45.11029,38.248496 44.503272,38.966258 43.518419,38.966258 L 4.9354314,38.966258 C 3.9369667,38.966258 3.2735915,38.424207 3.2735915,37.341594 L 3.2735915,26.996812 z " />
-    <path
-       id="path3093"
-       style="fill:url(#radialGradient4250);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 3.5490842,25.914404 C 2.8347985,27.37869 3.5484686,28.307261 4.5847985,28.307261 C 4.5847985,28.307261 43.584797,28.307261 43.584797,28.307261 C 44.703844,28.283451 45.430035,27.295356 45.013368,26.164403 L 38.299082,8.9537044 C 38.114558,8.4417976 37.64432,7.9656058 37.156225,7.9537008 L 11.299083,7.9537008 C 10.674083,7.9537008 10.263369,8.257274 10.01337,8.8108468 C 10.01337,8.8108468 3.5490842,25.914404 3.5490842,25.914404 z " />
-    <rect
-       id="rect4174"
-       style="opacity:1;color:#000000;fill:url(#linearGradient4209);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.40899992;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
-       y="31.174183"
-       x="7.857996"
-       height="5.5625"
-       width="17.625" />
-    <path
-       id="path4194"
-       style="opacity:0.81142853;fill:url(#linearGradient4242);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 7.8579947,36.73668 C 7.8579947,36.73668 7.8579947,32.725195 7.8579947,32.725195 C 9.6935221,35.904421 16.154485,36.73668 20.795492,36.73668 C 20.795492,36.73668 7.8579947,36.73668 7.8579947,36.73668 z " />
-    <path
-       id="path4201"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 44.796162,25.628688 C 44.859684,26.878662 44.382159,27.944528 43.474046,27.972438 C 43.474046,27.972438 5.3553296,27.972437 5.3553297,27.972438 C 4.0660978,27.972438 3.4875937,27.647491 3.271279,27.104382 C 3.3630404,28.048714 4.0970964,28.753688 5.3553297,28.753688 C 5.3553296,28.753687 43.474046,28.753688 43.474046,28.753688 C 44.550053,28.720617 45.226851,27.329664 44.82621,25.758897 L 44.796162,25.628688 z " />
-    <path
-       id="path4211"
-       style="opacity:0.69142857;color:#000000;fill:url(#linearGradient4272);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
-       d="M 10.96875,10.15625 C 10.922675,10.356571 10.78125,10.543047 10.78125,10.75 C 10.78125,11.698605 11.37223,12.539474 12.125,13.34375 C 12.365268,13.189675 12.490117,12.989342 12.75,12.84375 C 11.809691,12.027746 11.196604,11.127168 10.96875,10.15625 z M 37.625,10.15625 C 37.396273,11.125866 36.782988,12.028676 35.84375,12.84375 C 36.117894,12.997332 36.247738,13.21199 36.5,13.375 C 37.257262,12.568344 37.8125,11.701956 37.8125,10.75 C 37.8125,10.543047 37.670906,10.356571 37.625,10.15625 z M 39.8125,18.59375 C 39.198709,22.633861 32.513887,25.84375 24.28125,25.84375 C 16.068996,25.843751 9.4211001,22.650964 8.78125,18.625 C 8.7488928,18.822132 8.65625,19.016882 8.65625,19.21875 C 8.6562503,23.536697 15.645354,27.062501 24.28125,27.0625 C 32.917146,27.0625 39.937499,23.536698 39.9375,19.21875 C 39.9375,19.005826 39.848449,18.801394 39.8125,18.59375 z " />
-    <path
-       id="path4224"
-       style="opacity:1;color:#000000;fill:#ffffff;fill-opacity:0.45762706;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
-       transform="translate(8.838843e-2,0.176776)"
-       d="M 8.5736699,25.593554 C 8.5736699,26.154933 7.9602913,26.61002 7.2036505,26.61002 C 6.4470096,26.61002 5.833631,26.154933 5.833631,25.593554 C 5.833631,25.032175 6.4470096,24.577088 7.2036505,24.577088 C 7.9602913,24.577088 8.5736699,25.032175 8.5736699,25.593554 z " />
-    <path
-       id="path4226"
-       style="opacity:1;color:#000000;fill:#ffffff;fill-opacity:0.45762706;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
-       transform="translate(33.96705,8.838804e-2)"
-       d="M 8.5736699,25.593554 C 8.5736699,26.154933 7.9602913,26.61002 7.2036505,26.61002 C 6.4470096,26.61002 5.833631,26.154933 5.833631,25.593554 C 5.833631,25.032175 6.4470096,24.577088 7.2036505,24.577088 C 7.9602913,24.577088 8.5736699,25.032175 8.5736699,25.593554 z " />
-    <path
-       id="path4252"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient4260);stroke-width:1.00000024;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 11.642515,8.4157227 C 11.040823,8.4157227 10.649724,8.6950813 10.409049,9.22801 C 10.409048,9.22801 3.9940341,25.818732 3.9940341,25.818732 C 3.9940341,25.818732 3.7533573,26.465247 3.7533573,27.533555 C 3.7533573,27.533555 3.7533573,36.823651 3.7533573,36.823651 C 3.7533573,38.178391 4.1974134,38.45055 5.3478414,38.45055 L 43.034746,38.45055 C 44.357872,38.45055 44.569062,38.134153 44.569062,36.613058 L 44.569062,27.322962 C 44.569062,27.322962 44.671072,26.581271 44.478807,26.059409 L 37.885616,9.2534336 C 37.707973,8.7606171 37.334964,8.427184 36.865071,8.4157227 L 11.642515,8.4157227 z " />
-    <path
-       id="path4282"
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.00000048px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.42372885"
-       d="M 40.5,31.429166 L 40.5,36.450101" />
-    <path
-       id="path4284"
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.00000048px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.42372885"
-       d="M 38.5,31.488943 L 38.5,36.509878" />
-    <path
-       id="path4286"
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.00000048px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.42372885"
-       d="M 36.5,31.488943 L 36.5,36.509878" />
-    <path
-       id="path4288"
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.00000048px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.42372885"
-       d="M 34.5,31.488943 L 34.5,36.509878" />
-    <path
-       id="path4290"
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.00000048px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.42372885"
-       d="M 32.5,31.488943 L 32.5,36.509878" />
-    <path
-       id="path4292"
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.00000048px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.42372885"
-       d="M 30.5,31.488943 L 30.5,36.509878" />
-    <path
-       id="path4294"
-       style="opacity:0.09714284;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000048px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 39.5,31.479065 L 39.5,36.5" />
-    <path
-       id="path4296"
-       style="opacity:0.09714284;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000048px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 37.5,31.538842 L 37.5,36.559777" />
-    <path
-       id="path4298"
-       style="opacity:0.09714284;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000048px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 35.5,31.538842 L 35.5,36.559777" />
-    <path
-       id="path4300"
-       style="opacity:0.09714284;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000048px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 33.5,31.538842 L 33.5,36.559777" />
-    <path
-       id="path4302"
-       style="opacity:0.09714284;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000048px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 31.5,31.538842 L 31.5,36.559777" />
-    <path
-       id="path4572"
-       style="opacity:0.43999999;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 7.875,31.1875 L 7.875,36.71875 L 20.4375,36.71875 L 8.21875,36.375 L 7.875,31.1875 z " />
-    <path
-       id="path2545"
-       style="opacity:0.20571427;color:#000000;fill:url(#linearGradient2553);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.93365198;stroke-linecap:square;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.42372879;visibility:visible;display:inline;overflow:visible"
-       transform="matrix(1.037815,0,0,1.060747,-1.632878,-2.094626)"
-       d="M 39.875,19.5625 C 39.875,23.255904 33.215236,26.25 25,26.25 C 16.784764,26.25 10.125,23.255904 10.125,19.5625 C 10.125,15.869096 16.784764,12.875 25,12.875 C 33.215236,12.875 39.875,15.869096 39.875,19.5625 z " />
-  </g>
-  <path
-     id="path5490"
-     style="fill:url(#linearGradient2335);fill-opacity:1;stroke:#3364a4;stroke-width:2.13400412;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="M 2707.7296,3654.8487 C 2711.5577,3641.0265 2722.5247,3627.9423 2737.5173,3626.3997 C 2750.9919,3624.6777 2763.4531,3634.2188 2768.4431,3646.2762 C 2769.1337,3649.117 2773.9677,3655.921 2768.2628,3654.591 C 2758.4806,3654.591 2748.6984,3654.591 2738.9162,3654.591 C 2757.0829,3672.7578 2775.2498,3690.9246 2793.4166,3709.0914 C 2810.41,3690.8908 2827.4035,3672.6903 2844.397,3654.4896 C 2832.9561,3654.4809 2821.5152,3654.4722 2810.0743,3654.4635 C 2809.3286,3638.7249 2800.2608,3620.0884 2781.1319,3609.7479 C 2770.5703,3603.5348 2746.2806,3604.6779 2733.0934,3613.5279 C 2718.6361,3622.9739 2710.2319,3639.3623 2707.7296,3654.8487 z " />
+       y="4170.2734"
+       x="145.40292">www.geany.org</tspan></text>
   <path
      inkscape:connector-curvature="0"
      style="opacity:0.6;color:#000000;fill:url(#radialGradient3249-3);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.48304588px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -1553,7 +1507,7 @@
          height="278.69611"
          x="2016.7806"
          y="3858.9729" /></flowRegion><flowPara
-       id="flowPara3348"></flowPara></flowRoot>  <flowRoot
+       id="flowPara3348" /></flowRoot>  <flowRoot
      xml:space="preserve"
      id="flowRoot3350"
      style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Bitstream Vera Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
@@ -1563,4 +1517,4 @@
          height="280.57919"
          x="2252.1658"
          y="3864.6221" /></flowRegion><flowPara
-       id="flowPara3356"></flowPara></flowRoot></svg>
+       id="flowPara3356" /></flowRoot></svg>
