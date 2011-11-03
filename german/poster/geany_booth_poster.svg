@@ -16,7 +16,7 @@
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.48.1 r9760"
-   sodipodi:docname="poster06.svg"
+   sodipodi:docname="geany_booth_poster.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="/tmp/clt/poster06.png"
    inkscape:export-xdpi="37.008121"
@@ -29,7 +29,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -45,12 +45,12 @@
      bordercolor="#666666"
      pagecolor="#ffffff"
      id="base"
-     inkscape:zoom="0.53104438"
-     inkscape:cx="1165.6276"
-     inkscape:cy="3795.7634"
+     inkscape:zoom="0.26552219"
+     inkscape:cx="574.12451"
+     inkscape:cy="3045.5815"
      inkscape:window-x="0"
      inkscape:window-y="29"
-     inkscape:current-layer="svg2"
+     inkscape:current-layer="g4470"
      showgrid="false"
      inkscape:window-maximized="1" />
   <defs
@@ -1065,348 +1065,66 @@
        inkscape:collect="always" />
   </defs>
   <g
-     id="g4304"
-     transform="translate(-44,-10)">
-    <rect
-       id="rect3249"
-       style="fill:#eeeeee;fill-opacity:1;stroke:#cccccc;stroke-width:7.78191137;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       y="2046.536"
-       x="905.99976"
-       ry="38.738586"
-       rx="38.738586"
-       height="763.51611"
-       width="934.23102" />
-    <text
-       xml:space="preserve"
-       id="text3251"
-       style="font-size:49.10807419px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       y="2193.5759"
-       x="990.02191"><tspan
-         id="tspan3253"
-         style="font-size:73.66210938px;font-weight:bold;fill:#154374;fill-opacity:1"
-         y="2193.5759"
-         x="990.02191">Kernkomponenten</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text3255"
-       style="font-size:57.29275131px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       y="2294.7156"
-       x="1071.5171"><tspan
-         id="tspan3257"
-         style="fill:#154374;fill-opacity:1"
-         y="2294.7156"
-         x="1071.5171">Fensterverwaltung</tspan><tspan
-         id="tspan3259"
-         style="fill:#154374;fill-opacity:1"
-         y="2366.3315"
-         x="1071.5171">Leiste (Panel)</tspan><tspan
-         id="tspan3269"
-         style="fill:#154374;fill-opacity:1"
-         y="2437.9475"
-         x="1071.5171">Arbeitsoberfläche</tspan><tspan
-         id="tspan3263"
-         style="fill:#154374;fill-opacity:1"
-         y="2509.5635"
-         x="1071.5171">Sitzungsverwaltung</tspan><tspan
-         id="tspan3265"
-         style="fill:#154374;fill-opacity:1"
-         y="2581.1792"
-         x="1071.5171">Einstellungsassistent</tspan><tspan
-         id="tspan3271"
-         style="fill:#154374;fill-opacity:1"
-         y="2652.7954"
-         x="1071.5171">Hilfsprogramme</tspan><tspan
-         id="tspan3273"
-         style="fill:#154374;fill-opacity:1"
-         y="2724.4111"
-         x="1071.5171">Bibliotheken</tspan><tspan
-         id="tspan3267"
-         y="2796.0271"
-         x="1071.5171" /></text>
-  </g>
-  <g
      id="g4470">
     <rect
        id="rect3305"
-       style="fill:#eeeeee;fill-opacity:1;stroke:#cccccc;stroke-width:8.63717175;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#eeeeee;fill-opacity:1;stroke:#cccccc;stroke-width:7.57080841;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        y="722.50317"
        x="71.224884"
-       ry="38.73859"
+       ry="29.763584"
        rx="38.738586"
-       height="1079.6021"
+       height="829.47845"
        width="933.37579" />
     <text
        xml:space="preserve"
        id="text3307"
-       style="font-size:49.10807419px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:49.10807419px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        y="845.87634"
-       x="244.12755"><tspan
+       x="396.16357"><tspan
          id="tspan3309"
          style="font-size:73.66210938px;font-weight:bold;fill:#154374;fill-opacity:1"
          y="845.87634"
-         x="244.12755">Anwendungen</tspan></text>
+         x="396.16357">Fakten</tspan></text>
     <text
        xml:space="preserve"
        id="text3311"
-       style="font-size:57.29275131px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       y="956.38324"
-       x="170.58736"><tspan
-         id="tspan3327"
-         style="fill:#154374;fill-opacity:1"
-         y="956.38324"
-         x="170.58736">Texteditor Mousepad</tspan><tspan
-         id="tspan3368"
-         style="fill:#154374;fill-opacity:1"
-         y="1027.9991"
-         x="170.58736">Dateimanager Thunar</tspan><tspan
-         id="tspan3370"
-         style="fill:#154374;fill-opacity:1"
-         y="1099.6151"
-         x="170.58736">Terminal</tspan><tspan
-         id="tspan3372"
-         style="fill:#154374;fill-opacity:1"
-         y="1171.2311"
-         x="170.58736">Lautstärkeregelung</tspan><tspan
-         id="tspan3374"
-         style="fill:#154374;fill-opacity:1"
-         y="1242.847"
-         x="170.58736">Medienwiedergabe Parole</tspan><tspan
-         id="tspan3376"
-         style="fill:#154374;fill-opacity:1"
-         y="1314.4629"
-         x="170.58736">Programmwähler</tspan><tspan
-         id="tspan3378"
-         style="fill:#154374;fill-opacity:1"
-         y="1386.0789"
-         x="170.58736">Bildbetrachter Ristretto</tspan><tspan
-         id="tspan3380"
-         style="fill:#154374;fill-opacity:1"
-         y="1457.6948"
-         x="170.58736">Brennprogramm Xfburn</tspan><tspan
-         id="tspan3382"
-         style="fill:#154374;fill-opacity:1"
-         y="1529.3108"
-         x="170.58736">Kalender Orage</tspan><tspan
-         id="tspan2297"
-         style="fill:#154374;fill-opacity:1"
-         y="1600.9268"
-         x="170.58736">Archivierung:</tspan><tspan
-         id="tspan2299"
-         style="fill:#154374;fill-opacity:1"
-         y="1672.5426"
-         x="170.58736">  Squeeze</tspan><tspan
-         id="tspan2301"
-         style="fill:#154374;fill-opacity:1"
-         y="1744.1586"
-         x="170.58736">  Xarchiver</tspan><tspan
-         id="tspan3329"
-         y="1815.7745"
-         x="170.58736" /></text>
-  </g>
-  <g
-     id="g4450">
-    <rect
-       id="rect3384"
-       style="fill:#eeeeee;fill-opacity:1;stroke:#cccccc;stroke-width:9.33415985;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       y="711.98779"
-       x="1834.1198"
-       ry="38.738586"
-       rx="38.738583"
-       height="1264.9803"
-       width="1073.231" />
-    <text
-       xml:space="preserve"
-       id="text3386"
-       style="font-size:49.10807419px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       y="841.88208"
-       x="2203.8445"><tspan
-         id="tspan3388"
-         style="font-size:73.66210938px;font-weight:bold;fill:#154374;fill-opacity:1"
-         y="841.88208"
-         x="2203.8445">Goodies</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text3390"
-       style="font-size:57.29275131px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       y="959.39062"
-       x="1930.563"><tspan
-         id="tspan3406"
-         style="fill:#154374;fill-opacity:1"
-         y="959.39062"
-         x="1930.563">Plugins für die Xfce-Leiste</tspan><tspan
-         id="tspan3460"
-         style="fill:#154374;fill-opacity:1"
-         y="1031.0066"
-         x="1930.563">Downloadmanager Eatmonkey</tspan><tspan
-         id="tspan3462"
-         style="fill:#154374;fill-opacity:1"
-         y="1102.6226"
-         x="1930.563">Verwaltung entfernter</tspan><tspan
-         id="tspan2759"
-         style="fill:#154374;fill-opacity:1"
-         y="1174.2384"
-         x="1930.563">  Dateisysteme: Gigolo</tspan><tspan
-         id="tspan3464"
-         style="fill:#154374;fill-opacity:1"
-         y="1245.8544"
-         x="1930.563">Webbrowser Midori</tspan><tspan
-         id="tspan3468"
-         style="fill:#154374;fill-opacity:1"
-         y="1317.4703"
-         x="1930.563">Benachrichtigungsdienst</tspan><tspan
-         id="tspan3470"
-         style="fill:#154374;fill-opacity:1"
-         y="1389.0863"
-         x="1930.563">Energieverwaltung</tspan><tspan
+       style="font-size:57.29275131px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       y="954.50018"
+       x="126.79254"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
          id="tspan3472"
-         style="fill:#154374;fill-opacity:1"
-         y="1460.7021"
-         x="1930.563">BibTeX-Verwaltung Xfbib</tspan><tspan
+         x="126.79254"
+         y="954.50018">- Seit 2005 in Entwicklung</tspan><tspan
+         sodipodi:role="line"
          id="tspan3474"
-         style="fill:#154374;fill-opacity:1"
-         y="1532.3181"
-         x="1930.563">Taskmanager</tspan><tspan
+         x="126.79254"
+         y="1026.1161">- Entwicklungsumgebung</tspan><tspan
+         sodipodi:role="line"
          id="tspan3476"
-         style="fill:#154374;fill-opacity:1"
-         y="1603.9341"
-         x="1930.563">Datenträgerverwaltung</tspan><tspan
+         x="126.79254"
+         y="1097.7321">- Ziel: Resourcenschonend &amp; </tspan><tspan
+         sodipodi:role="line"
          id="tspan3478"
-         style="fill:#154374;fill-opacity:1"
-         y="1675.55"
-         x="1930.563">Screenshooter</tspan><tspan
-         id="tspan3635"
-         style="fill:#154374;fill-opacity:1"
-         y="1747.166"
-         x="1930.563">Wörterbuch</tspan><tspan
-         id="tspan3408"
-         style="fill:#154374;fill-opacity:1"
-         y="1818.7819"
-         x="1930.563">E-Mail-Benachrichtigung</tspan><tspan
-         id="tspan2415"
-         style="fill:#154374;fill-opacity:1"
-         y="1890.3978"
-         x="1930.563">MPC-Clients</tspan></text>
+         x="126.79254"
+         y="1169.348">  wenige Abhängigkeiten </tspan><tspan
+         sodipodi:role="line"
+         id="tspan3480"
+         x="126.79254"
+         y="1240.964">- Basierend auf Scintilla &amp; </tspan><tspan
+         sodipodi:role="line"
+         id="tspan3482"
+         x="126.79254"
+         y="1312.5798">  2.12 &lt;= GTK2 &lt;= 3</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3484"
+         x="126.79254"
+         y="1384.1958">- Umgesetzt in C und C++</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3486"
+         x="126.79254"
+         y="1455.8118">- Lizenz: GPL2+</tspan></text>
   </g>
-  <rect
-     id="rect3557"
-     style="fill:#eeeeee;fill-opacity:1;stroke:#cccccc;stroke-width:8.18467903;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     y="3123.3357"
-     x="70.998634"
-     ry="38.738586"
-     rx="38.738586"
-     height="745.74683"
-     width="933.82825" />
-  <text
-     xml:space="preserve"
-     id="text3559"
-     style="font-size:49.10807419px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-     y="3270.1741"
-     x="143.77733"><tspan
-       id="tspan3561"
-       style="font-size:73.66210938px;font-weight:bold;fill:#154374;fill-opacity:1"
-       y="3270.1741"
-       x="143.77733">Developer Support</tspan></text>
-  <text
-     xml:space="preserve"
-     id="text3563"
-     style="font-size:57.29275131px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-     y="3330.3899"
-     x="194.5619"><tspan
-       id="tspan3656"
-       style="fill:#154374;fill-opacity:1"
-       y="3330.3899"
-       x="194.5619" /><tspan
-       id="tspan3625"
-       style="fill:#154374;fill-opacity:1"
-       y="3402.0059"
-       x="194.5619">Xfce Development Tools</tspan><tspan
-       id="tspan2261"
-       style="fill:#154374;fill-opacity:1"
-       y="3473.6218"
-       x="194.5619">Bindings: </tspan><tspan
-       id="tspan3629"
-       style="fill:#154374;fill-opacity:1"
-       y="3545.2378"
-       x="194.5619">  Vala, Python, Perl</tspan><tspan
-       id="tspan2255"
-       style="fill:#154374;fill-opacity:1"
-       y="3616.8535"
-       x="194.5619">Hilfsbibliotheken: </tspan><tspan
-       id="tspan2257"
-       style="fill:#154374;fill-opacity:1"
-       y="3688.4695"
-       x="194.5619">  Exo, Garcon, XFC</tspan><tspan
-       id="tspan3631"
-       style="fill:#154374;fill-opacity:1"
-       y="3760.0854"
-       x="194.5619">Artwork</tspan><tspan
-       id="tspan3633"
-       style="fill:#154374;fill-opacity:1"
-       y="3831.7014"
-       x="194.5619" /><tspan
-       id="tspan3581"
-       y="3903.3174"
-       x="194.5619" /></text>
-  <rect
-     id="rect3677"
-     style="fill:#eeeeee;fill-opacity:1;stroke:#cccccc;stroke-width:8.38439274;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     y="2600.6802"
-     x="1970.2294"
-     ry="38.738586"
-     rx="38.738586"
-     height="782.75208"
-     width="933.62854" />
-  <text
-     xml:space="preserve"
-     id="text3679"
-     style="font-size:49.10807419px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-     y="2747.4185"
-     x="2125.7061"><tspan
-       id="tspan3681"
-       style="font-size:73.66210938px;font-weight:bold;fill:#154374;fill-opacity:1"
-       y="2747.4185"
-       x="2125.7061">Thunar Plugins</tspan></text>
-  <text
-     xml:space="preserve"
-     id="text3683"
-     style="font-size:57.29275131px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-     y="2848.5579"
-     x="2141.0684"><tspan
-       id="tspan3699"
-       style="fill:#154374;fill-opacity:1"
-       y="2848.5579"
-       x="2141.0684">Versionshaltung</tspan><tspan
-       id="tspan3751"
-       style="fill:#154374;fill-opacity:1"
-       y="2920.1738"
-       x="2141.0684">Wallpaper</tspan><tspan
-       id="tspan3753"
-       style="fill:#154374;fill-opacity:1"
-       y="2991.7898"
-       x="2141.0684">Eigene Aktionen</tspan><tspan
-       id="tspan3755"
-       style="fill:#154374;fill-opacity:1"
-       y="3063.4058"
-       x="2141.0684">Archivierung</tspan><tspan
-       id="tspan3761"
-       style="fill:#154374;fill-opacity:1"
-       y="3135.0215"
-       x="2141.0684">Medienkennzeichner</tspan><tspan
-       id="tspan3765"
-       style="fill:#154374;fill-opacity:1"
-       y="3206.6377"
-       x="2141.0684">Thumbnailers</tspan><tspan
-       id="tspan3767"
-       style="fill:#154374;fill-opacity:1"
-       y="3278.2534"
-       x="2141.0684">Geräte einhängen</tspan><tspan
-       id="tspan3757"
-       style="fill:#154374;fill-opacity:1"
-       y="3349.8694"
-       x="2141.0684" /><tspan
-       id="tspan3701"
-       y="3421.4854"
-       x="2141.0684" /></text>
   <path
      id="path2761"
      style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#cccccc;stroke-width:4.09233952px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1444,7 +1162,7 @@
        id="tspan4491"
        style="font-size:96px;font-style:normal;font-weight:bold;fill:#cccccc;fill-opacity:1"
        y="4142.0493"
-       x="150.53226">www.xfce.org</tspan></text>
+       x="150.53226">www.geany.org</tspan></text>
   <g
      id="layer2"
      transform="matrix(4.2127698,0,0,4.2127698,2690.8486,3607.0377)">
@@ -1570,56 +1288,6 @@
      id="path5490"
      style="fill:url(#linearGradient2335);fill-opacity:1;stroke:#3364a4;stroke-width:2.13400412;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="M 2707.7296,3654.8487 C 2711.5577,3641.0265 2722.5247,3627.9423 2737.5173,3626.3997 C 2750.9919,3624.6777 2763.4531,3634.2188 2768.4431,3646.2762 C 2769.1337,3649.117 2773.9677,3655.921 2768.2628,3654.591 C 2758.4806,3654.591 2748.6984,3654.591 2738.9162,3654.591 C 2757.0829,3672.7578 2775.2498,3690.9246 2793.4166,3709.0914 C 2810.41,3690.8908 2827.4035,3672.6903 2844.397,3654.4896 C 2832.9561,3654.4809 2821.5152,3654.4722 2810.0743,3654.4635 C 2809.3286,3638.7249 2800.2608,3620.0884 2781.1319,3609.7479 C 2770.5703,3603.5348 2746.2806,3604.6779 2733.0934,3613.5279 C 2718.6361,3622.9739 2710.2319,3639.3623 2707.7296,3654.8487 z " />
-  <g
-     style="fill:none;fill-opacity:0.5;stroke:#cccccc;stroke-opacity:1"
-     id="g3454"
-     transform="matrix(4.7627674,0,0,4.7627674,1407.3595,3847.4733)">
-    <path
-       id="path12"
-       d=""
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(7.99348,-48.3084)" />
-    <g
-       transform="translate(-136.6543,-342.5193)"
-       id="g23"
-       style="stroke:#cccccc;stroke-opacity:1;fill:none">
-      <path
-         d="M 286.934,392.031 C 286.765,391.441 297.437,384.986 298.982,386.47 C 301.763,387.478 287.032,392.78 286.934,392.031 z "
-         id="path7"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.6pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         d="M 292.031,397.901 C 291.091,397.333 298.42,388.787 300.218,389.714 C 302.843,392.322 291.908,398.104 292.031,397.901 z "
-         id="path8"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.6pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         d="M 320.916,358.358 C 320.025,357.621 313.038,368.645 314.583,369.789 C 315.512,370.484 321.314,358.751 320.916,358.358 z "
-         id="path13"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.6pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <ellipse
-         sodipodi:ry="3.398196"
-         sodipodi:rx="3.012037"
-         sodipodi:cy="374.58655"
-         sodipodi:cx="288.86475"
-         transform="matrix(0.9253,0,0,0.933788,22.0283,24.352)"
-         ry="3.398196"
-         rx="3.012037"
-         cy="374.58655"
-         cx="288.86475"
-         id="ellipse17"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.6pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 291.87678,374.58655 c 0,1.87677 -1.34853,3.39819 -3.01203,3.39819 -1.66351,0 -3.01204,-1.52142 -3.01204,-3.39819 0,-1.87677 1.34853,-3.3982 3.01204,-3.3982 1.6635,0 3.01203,1.52143 3.01203,3.3982 z" />
-      <path
-         transform="translate(-8.0321,-1.54463)"
-         d="M 320.916,358.358 C 320.475,357.846 318.135,369.726 319.217,370.252 C 320.146,370.947 321.764,358.976 320.916,358.358 z "
-         id="path18"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.6pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         transform="translate(-38.3069,14.983)"
-         d="M 321.366,357.908 C 318.595,359.867 322.887,370.953 329.946,364.48 C 324.4,364.643 322.55,363.019 321.366,357.908 z "
-         id="path21"
-         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.6pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    </g>
-  </g>
   <path
      inkscape:connector-curvature="0"
      style="opacity:0.6;color:#000000;fill:url(#radialGradient3249-3);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.48304588px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -1806,4 +1474,24 @@
      d="m 456.61429,225.43841 c 28.12502,-74.99992 95.25645,-33.14729 97.76735,1.17184 l -0.84097,117.18735 c -5e-5,28.45978 -50.05571,50.39057 -115.68084,59.76551"
      id="path19353"
      sodipodi:nodetypes="cccc" />
-</svg>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3342"
+     style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Bitstream Vera Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+       id="flowRegion3344"><rect
+         id="rect3346"
+         width="359.66861"
+         height="278.69611"
+         x="2016.7806"
+         y="3858.9729" /></flowRegion><flowPara
+       id="flowPara3348"></flowPara></flowRoot>  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3350"
+     style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Bitstream Vera Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+       id="flowRegion3352"><rect
+         id="rect3354"
+         width="483.95203"
+         height="280.57919"
+         x="2252.1658"
+         y="3864.6221" /></flowRegion><flowPara
+       id="flowPara3356"></flowPara></flowRoot></svg>
