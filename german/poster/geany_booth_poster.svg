@@ -34,8 +34,8 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     inkscape:window-height="986"
-     inkscape:window-width="1920"
+     inkscape:window-height="715"
+     inkscape:window-width="1024"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      guidetolerance="10.0"
@@ -47,9 +47,9 @@
      id="base"
      inkscape:zoom="0.18893935"
      inkscape:cx="1489.9606"
-     inkscape:cy="2106.4961"
+     inkscape:cy="2966.5605"
      inkscape:window-x="0"
-     inkscape:window-y="29"
+     inkscape:window-y="0"
      inkscape:current-layer="svg2"
      showgrid="false"
      inkscape:window-maximized="1"
@@ -339,7 +339,7 @@
        y2="3564.25" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3134"
+       xlink:href="#linearGradient19744"
        id="linearGradient2374"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0,1.1506785,-15.411407,0,4583.195,-149.32586)"
@@ -1197,20 +1197,22 @@
      id="g3607"
      transform="translate(-83.368278,148.14429)">
     <image
-       width="1521.1602"
-       height="940.11096"
+       sodipodi:absref="/home/enrico/projects/talks/german/poster/img/geany_c_terminal_german.png"
        xlink:href="img/geany_c_terminal_german.png"
-       id="image3323"
+       y="665.51959"
        x="1419.3777"
-       y="665.51959" />
+       id="image3323"
+       height="940.11096"
+       width="1521.1602" />
   </g>
   <image
-     y="2007.3665"
-     x="185.29965"
-     id="image3385"
+     sodipodi:absref="/home/enrico/projects/talks/german/poster/img/geany_plugin_manager_geanyvc_0.21.1.png"
      xlink:href="img/geany_plugin_manager_geanyvc_0.21.1.png"
+     width="925.62537"
      height="812.06793"
-     width="925.62537" />
+     id="image3385"
+     x="185.29965"
+     y="2007.3665" />
   <g
      id="g3479"
      transform="translate(-346.49846,1295.8243)">
@@ -1279,7 +1281,7 @@
   </g>
   <path
      id="rect2160"
-     style="fill:url(#linearGradient2374);fill-opacity:1;stroke:none;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+     style="fill:url(#linearGradient2374);fill-opacity:1.0;stroke:none;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
      d="M 2947.1559,174.58949 L 2947.1559,575.90917 L 29.205519,575.54404 L 28.794963,174.58949 C 28.794963,86.700826 99.550105,15.945684 187.43878,15.945684 L 2788.5121,15.945684 C 2876.4008,15.945684 2947.1559,86.700826 2947.1559,174.58949 z " />
   <text
      xml:space="preserve"
@@ -1288,19 +1290,19 @@
      y="233.41612"
      x="651.06439"><tspan
        id="tspan3221"
-       style="font-size:98.28575897px;font-weight:bold;fill:#ffffff;fill-opacity:1"
+       style="font-size:98.28575897000000339px;font-weight:bold;fill:#000000;fill-opacity:1"
        y="233.41612"
        x="651.06439">Geany</tspan></text>
   <text
      xml:space="preserve"
      id="text3225"
-     style="font-size:49.14287949px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+     style="font-size:49.14287949px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
      y="443.70969"
      x="787.57922"><tspan
        id="tspan3227"
-       style="font-size:57.33336258px;font-weight:bold"
+       style="font-size:57.33336257999999930px;font-weight:bold;fill:#000000"
        y="443.70969"
-       x="787.57922">...und alles ist ein bißchen schneller!</tspan></text>
+       x="787.57922">eine kleine und schnelle Entwicklungsumgebung</tspan></text>
   <text
      xml:space="preserve"
      id="text4489"
