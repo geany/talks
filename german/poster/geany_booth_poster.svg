@@ -1199,7 +1199,7 @@
     <image
        width="1521.1602"
        height="940.11096"
-       xlink:href="file:///daten/quellen/git/geany-talks/german/poster/img/geany_c_terminal_german.png"
+       xlink:href="img/geany_c_terminal_german.png"
        id="image3323"
        x="1419.3777"
        y="665.51959" />
@@ -1208,7 +1208,7 @@
      y="2007.3665"
      x="185.29965"
      id="image3385"
-     xlink:href="file:///daten/quellen/git/geany-talks/german/poster/img/geany_plugin_manager_geanyvc_0.21.1.png"
+     xlink:href="img/geany_plugin_manager_geanyvc_0.21.1.png"
      height="812.06793"
      width="925.62537" />
   <g
