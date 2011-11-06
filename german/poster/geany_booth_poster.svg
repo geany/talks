@@ -45,15 +45,23 @@
      bordercolor="#666666"
      pagecolor="#ffffff"
      id="base"
-     inkscape:zoom="0.18893935"
-     inkscape:cx="288.33943"
-     inkscape:cy="2008.7168"
+     inkscape:zoom="0.26720059"
+     inkscape:cx="749.54505"
+     inkscape:cy="2492.8918"
      inkscape:window-x="0"
      inkscape:window-y="29"
      inkscape:current-layer="svg2"
-     showgrid="false"
+     showgrid="true"
      inkscape:window-maximized="1"
-     inkscape:snap-grids="false" />
+     inkscape:snap-grids="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3909"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
   <defs
      id="defs4">
     <inkscape:perspective
@@ -1608,7 +1616,7 @@
      transform="scale(0.94424194,1.0590506)"><tspan
        x="615.13068"
        y="801.05627"
-       style="font-size:79.26715088px;font-weight:bold;fill:#154374;fill-opacity:1"
+       style="font-size:70.00000024px;font-weight:bold;fill:#154374;fill-opacity:1"
        id="tspan3309">Fakten</tspan></text>
   <text
      transform="scale(0.93544836,1.0690061)"
@@ -1790,7 +1798,7 @@
        y="724.9162"
        x="2192.6235"><tspan
          id="tspan3309-0"
-         style="font-size:73.66210938px;font-weight:bold;fill:#154374;fill-opacity:1"
+         style="font-size:70px;font-weight:bold;fill:#154374;fill-opacity:1"
          y="724.9162"
          x="2192.6235">Features</tspan></text>
     <text
