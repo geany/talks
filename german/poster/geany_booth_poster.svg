@@ -1637,7 +1637,7 @@
      transform="matrix(0.95551153,0,0,1,49.907027,148.14429)"
      id="g3607">
     <image
-       xlink:href="img/geany_c_terminal_german.png"
+       xlink:href="../img/geany_c_terminal_german.png"
        id="image3323"
        height="855.42767"
        width="1399.428"
@@ -1645,7 +1645,7 @@
        x="1541.1099" />
   </g>
   <image
-     xlink:href="img/geany_plugin_manager_geanyvc_0.21.1.png"
+     xlink:href="../img/geany_plugin_manager_geanyvc_0.21.1.png"
      id="image3385"
      height="877.31818"
      width="1000"
