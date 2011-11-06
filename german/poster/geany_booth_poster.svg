@@ -18,7 +18,7 @@
    inkscape:version="0.48.1 r9760"
    sodipodi:docname="geany_booth_poster.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="/tmp/clt/poster06.png"
+   inkscape:export-filename="/tmp/poster06.png"
    inkscape:export-xdpi="37.008121"
    inkscape:export-ydpi="37.008121">
   <metadata
@@ -29,7 +29,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -46,8 +46,8 @@
      pagecolor="#ffffff"
      id="base"
      inkscape:zoom="0.26720059"
-     inkscape:cx="2007.5866"
-     inkscape:cy="2392.2136"
+     inkscape:cx="2228.3796"
+     inkscape:cy="2640.5437"
      inkscape:window-x="0"
      inkscape:window-y="29"
      inkscape:current-layer="svg2"
@@ -1603,13 +1603,13 @@
      height="960"
      rx="52.958771"
      ry="34.446991"
-     x="120"
+     x="122.45527"
      y="772.99219"
      style="fill:#fef8c5;fill-opacity:1;stroke:#c4a000;stroke-width:4.3179245;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="rect3305" />
   <g
      id="g3926"
-     transform="translate(-546.76436,-34.980375)">
+     transform="translate(-544.30909,-34.980375)">
     <text
        sodipodi:linespacing="125%"
        transform="scale(0.94424194,1.0590506)"
@@ -1676,61 +1676,61 @@
          id="tspan4100" /></text>
   </g>
   <rect
-     width="2609.4976"
+     width="2600"
      height="761.45422"
-     rx="110.1207"
+     rx="109.7199"
      ry="30.11128"
-     x="150.50253"
+     x="189.96057"
      y="3212.9922"
-     style="fill:#fef8c5;fill-opacity:1;stroke:#c4a000;stroke-width:4.87788105;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:#fef8c5;fill-opacity:1;stroke:#c4a000;stroke-width:4.86899614;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="rect3305-2" />
   <text
-     x="1360"
+     x="1384.6698"
      y="3302.9922"
      style="font-size:49.10807419px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
      id="text3307-4"
      xml:space="preserve"><tspan
-       x="1360"
+       x="1384.6698"
        y="3302.9922"
        style="font-size:73.66210938px;font-weight:bold;fill:#154374;fill-opacity:1"
        id="tspan3309-9">Plugins</tspan></text>
   <text
      sodipodi:linespacing="125%"
-     x="241.93936"
+     x="266.60919"
      y="3383.9895"
      style="font-size:57.29275131px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
      id="text3311-0"
      xml:space="preserve"><tspan
        y="3383.9895"
-       x="241.93936"
+       x="266.60919"
        id="tspan3574"
        sodipodi:role="line"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"><tspan
    style="font-size:64px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold"
    id="tspan3853">GeanyVC</tspan> - Anbindung an populäre Versionsverwaltungssysteme wie git, svn, bzr, hg, cvs</tspan><tspan
        y="3460.7896"
-       x="241.93936"
+       x="266.60919"
        id="tspan3576"
        sodipodi:role="line"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"><tspan
    style="font-size:64px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold"
    id="tspan3855">GeanyLaTeX</tspan> – Unterstützung bei Erstellung von LaTeX-Dokumenten</tspan><tspan
        y="3537.5896"
-       x="241.93936"
+       x="266.60919"
        id="tspan3578"
        sodipodi:role="line"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"><tspan
    style="font-size:64px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold"
    id="tspan3857">Spellcheck</tspan> – Rechtschreibprüfung</tspan><tspan
        y="3614.3894"
-       x="241.93936"
+       x="266.60919"
        id="tspan3580"
        sodipodi:role="line"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"><tspan
    style="font-size:64px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold"
    id="tspan3859">GeanyPrj</tspan> – Erweiterter Projektsupport</tspan><tspan
        y="3691.1895"
-       x="241.93936"
+       x="266.60919"
        id="tspan3582"
        sodipodi:role="line"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"><tspan
@@ -1739,34 +1739,34 @@
    style="font-size:64px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold"
    id="tspan3861">Devhelp</tspan> – Komfortabler Zugriff auf Dokumentation</tspan><tspan
        y="3767.9895"
-       x="241.93936"
+       x="266.60919"
        id="tspan3584"
        sodipodi:role="line"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"><tspan
    style="font-size:64px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold"
    id="tspan3865">XML PrettyPrinter </tspan>– Reformatierung von XML-Dokumenten</tspan><tspan
        y="3844.7896"
-       x="241.93936"
+       x="266.60919"
        id="tspan3586"
        sodipodi:role="line"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"><tspan
    style="font-size:64px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold"
    id="tspan3867">Addons</tspan> – Generisches Plugin mit verschiedenen, kleinen Hilfsfunktionen</tspan><tspan
        y="3921.5896"
-       x="241.93936"
+       x="266.60919"
        id="tspan3588"
        sodipodi:role="line"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"><tspan
    style="font-size:64px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold"
    id="tspan3869">WebHelper</tspan> – Ein Plugin mit integrierten Browser und HTML-Analyse</tspan><tspan
        y="3998.3896"
-       x="241.93936"
+       x="266.60919"
        id="tspan3590"
        sodipodi:role="line"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter" /></text>
   <g
      id="g3607"
-     transform="matrix(0.95551153,0,0,1,47.451762,148.14429)">
+     transform="matrix(0.95551153,0,0,1,49.907027,148.14429)">
     <image
        sodipodi:absref="/daten/quellen/git/geany-talks/german/poster/img/geany_c_terminal_german.png"
        xlink:href="img/geany_c_terminal_german.png"
@@ -1779,79 +1779,79 @@
   <image
      sodipodi:absref="/daten/quellen/git/geany-talks/german/poster/img/geany_plugin_manager_geanyvc_0.21.1.png"
      xlink:href="img/geany_plugin_manager_geanyvc_0.21.1.png"
-     width="925.62537"
-     height="812.06793"
+     width="1000"
+     height="877.31818"
      id="image3385"
-     x="185.29965"
-     y="2007.3665" />
+     x="160"
+     y="2010.9922" />
   <rect
      width="1479.9999"
      height="1000.0001"
      rx="43.714565"
      ry="34.23365"
-     x="1280"
+     x="1296.0846"
      y="1932.9922"
      style="fill:#fef8c5;fill-opacity:1;stroke:#c4a000;stroke-width:4.90498304;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="rect3305-3" />
   <text
-     x="1846.1251"
+     x="1862.2097"
      y="2020.7405"
      style="font-size:49.10807419px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
      id="text3307-2"
      xml:space="preserve"><tspan
-       x="1846.1251"
+       x="1862.2097"
        y="2020.7405"
        style="font-size:70px;font-weight:bold;fill:#154374;fill-opacity:1"
        id="tspan3309-0">Features</tspan></text>
   <text
      sodipodi:linespacing="120%"
-     x="1320.7043"
+     x="1336.7889"
      y="2108.1936"
      style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:120.00000477%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
      id="text3311-6"
      xml:space="preserve"><tspan
        y="2108.1936"
-       x="1320.7043"
+       x="1336.7889"
        id="tspan3827"
        sodipodi:role="line">- Unterstützung verschiedenster Dateitypen</tspan><tspan
-       y="2184.9934"
-       x="1320.7043"
+       y="2184.9937"
+       x="1336.7889"
        id="tspan3829"
        sodipodi:role="line">  von Programmier-, Skript- und Markup-Sprachen</tspan><tspan
-       y="2261.7935"
-       x="1320.7043"
+       y="2261.7937"
+       x="1336.7889"
        id="tspan3831"
        sodipodi:role="line">- Bietet u.a. Syntaxhervorhebung, Autovervoll-</tspan><tspan
        y="2338.5935"
-       x="1320.7043"
+       x="1336.7889"
        id="tspan3833"
        sodipodi:role="line">  ständigung, Symbolbrowser</tspan><tspan
        y="2415.3936"
-       x="1320.7043"
+       x="1336.7889"
        id="tspan3835"
        sodipodi:role="line">- Große Zahl von Bibliotheken zur Autovervoll-</tspan><tspan
        y="2492.1936"
-       x="1320.7043"
+       x="1336.7889"
        id="tspan3837"
        sodipodi:role="line">  ständigung können von der Projekthomepage </tspan><tspan
-       y="2568.9934"
-       x="1320.7043"
+       y="2568.9937"
+       x="1336.7889"
        id="tspan3839"
        sodipodi:role="line">  heruntergeladen werden</tspan><tspan
-       y="2645.7935"
-       x="1320.7043"
+       y="2645.7937"
+       x="1336.7889"
        id="tspan3841"
        sodipodi:role="line">- Eingebetes Terminal</tspan><tspan
-       y="2722.5935"
-       x="1320.7043"
+       y="2722.5938"
+       x="1336.7889"
        id="tspan3843"
        sodipodi:role="line">- Konfigurierbares Build-Menü</tspan><tspan
        y="2799.3936"
-       x="1320.7043"
+       x="1336.7889"
        id="tspan3845"
        sodipodi:role="line">- ...</tspan><tspan
        y="2876.1936"
-       x="1320.7043"
+       x="1336.7889"
        id="tspan3847"
        sodipodi:role="line">- Für alles andere: Pluginschnittstelle</tspan></text>
   <text
@@ -1859,11 +1859,11 @@
      id="text4489"
      style="font-size:96px"
      y="4138.5171"
-     x="1008.1136"><tspan
+     x="1032.7834"><tspan
        id="tspan4491"
        style="font-size:96px;font-style:normal;font-weight:bold;fill:#cccccc;fill-opacity:1"
        y="4138.5171"
-       x="1008.1136">www.geany.org</tspan></text>
+       x="1032.7834">www.geany.org</tspan></text>
   <flowRoot
      xml:space="preserve"
      id="flowRoot3342"
