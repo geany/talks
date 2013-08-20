@@ -232,13 +232,13 @@
        id="rect3305"
        style="fill:#fef8c5;fill-opacity:1;stroke:#c4a000;stroke-width:4.52877712;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <text
-       x="670.65845"
+       x="765.22699"
        y="807.47552"
        transform="scale(0.94424194,1.0590506)"
        id="text3307"
        xml:space="preserve"
        style="font-size:52.84476852px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-         x="670.65845"
+         x="765.22699"
          y="807.47552"
          id="tspan3309"
          style="font-size:70px;font-weight:bold;fill:#154374;fill-opacity:1">Fakten</tspan></text>
@@ -305,29 +305,28 @@
          id="flowPara3219">- Implementiert übliche Funktionen von Editoren </flowPara><flowPara
          id="flowPara3238">   und IDEs, ergänzt um die unüblichen nützlichen</flowPara></flowRoot>  </g>
   <g
-     transform="translate(26.364156,-15.818494)"
-     id="g3359">
+     id="g3115">
     <rect
        width="1479.9999"
-       height="1000.0001"
+       height="880.19196"
        rx="43.714565"
-       ry="34.23365"
-       x="1296.0846"
-       y="1932.9922"
+       ry="30.132181"
+       x="1322.4487"
+       y="1917.1737"
        id="rect3305-3"
-       style="fill:#fef8c5;fill-opacity:1;stroke:#c4a000;stroke-width:4.90498304;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:#fef8c5;fill-opacity:1;stroke:#c4a000;stroke-width:4.60178375;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <text
-       x="1861.1187"
-       y="2020.7405"
+       x="1887.4828"
+       y="2004.922"
        id="text3307-2"
        xml:space="preserve"
        style="font-size:49.10807419px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-         x="1861.1187"
-         y="2020.7405"
+         x="1887.4828"
+         y="2004.922"
          id="tspan3309-0"
          style="font-size:70px;font-weight:bold;fill:#154374;fill-opacity:1">Features</tspan></text>
     <flowRoot
-       transform="translate(47.997186,180.83)"
+       transform="translate(74.361342,109.01151)"
        id="flowRoot3241"
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"><flowRegion
@@ -340,7 +339,7 @@
            xlink:href="#rect3305-3" /></flowRegion><flowPara
          id="flowPara3247">- Unterstützung verschiedenster Dateitypen von </flowPara><flowPara
          id="flowPara3249">   Programmier-, Skript- und Markup-Sprachen</flowPara></flowRoot>    <flowRoot
-       transform="translate(47.997186,371.63371)"
+       transform="translate(74.361342,299.81522)"
        id="flowRoot3255"
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"><flowRegion
@@ -353,7 +352,7 @@
            xlink:href="#rect3305-3" /></flowRegion><flowPara
          id="flowPara3261">- Bietet u.a. Syntaxhervorhebung, Autovervoll-</flowPara><flowPara
          id="flowPara3263">   ständigung, Symbolbrowser</flowPara></flowRoot>    <flowRoot
-       transform="translate(47.997186,562.94937)"
+       transform="translate(74.361342,491.13088)"
        id="flowRoot3271"
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"><flowRegion
@@ -366,25 +365,25 @@
            xlink:href="#rect3305-3" /></flowRegion><flowPara
          id="flowPara3277">- Eingebettetes Terminal- Konfigurierbares Build-</flowPara><flowPara
          id="flowPara3279">   Menü </flowPara></flowRoot>    <text
-       x="1359.0829"
-       y="2708.073"
+       x="1385.447"
+       y="2636.2544"
        id="text3281"
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"><tspan
-         x="1359.0829"
-         y="2708.073"
+         x="1385.447"
+         y="2636.2544"
          id="tspan3283">- ...</tspan><tspan
-         x="1359.0829"
-         y="2788.073"
+         x="1385.447"
+         y="2716.2544"
          id="tspan3285" /></text>
     <text
-       x="1359.0829"
-       y="2805.5005"
+       x="1385.447"
+       y="2733.6819"
        id="text3287"
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"><tspan
-         x="1359.0829"
-         y="2805.5005"
+         x="1385.447"
+         y="2733.6819"
          id="tspan3289">- Für alles andere: Pluginschnittstelle</tspan></text>
   </g>
 </svg>
