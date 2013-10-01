@@ -14,7 +14,7 @@
    height="4212.9922"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="geany-poster.svg"
    inkscape:export-filename="/home/flanitz/quellen/git/geany-talks/eng/poster/geanydirtyapproach.png"
    inkscape:export-xdpi="90"
@@ -469,17 +469,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.175"
-     inkscape:cx="1895.9232"
-     inkscape:cy="2272.4403"
+     inkscape:cx="2941.294"
+     inkscape:cy="1943.156"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1680"
-     inkscape:window-height="963"
+     inkscape:window-width="1920"
+     inkscape:window-height="984"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="31"
      inkscape:window-maximized="1">
     <sodipodi:guide
        orientation="1,0"
@@ -569,24 +569,24 @@
        ry="73.399307" />
     <path
        style="opacity:0.8;fill:#f7f7f6;fill-opacity:1;stroke:#babdb6;stroke-width:26.9362011;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 1775.1367,-278.15333 c -31.802,-48.52449 -55.2359,-80.47 -18.5537,-138.31938 -88.3855,-107.83546 32.3313,-253.03942 179.5677,-140.55471 55.627,-33.46126 179.2045,-15.78328 222.737,9.38592 94.4003,-58.97513 183.6009,-49.60617 275.8515,62.26479 0,0 161.5922,-100.61402 271.3529,-12.19565 109.7607,88.41838 27.4402,228.66822 27.4402,228.66822 78.6325,49.97673 216.1429,206.884337 27.4402,268.30403083 0,0 -33.538,57.92928117 -97.5651,67.07600917 -64.0271,9.146729 -185.9836,-67.07600917 -185.9836,-67.07600917 -8.4089,0.934325 -136.5476,120.18995917 -320.1354,97.56510617 -302.7379,-37.308578 -301.8421,-137.200929 -301.8421,-137.200929 0,0 -88.4183,6.097819 -118.9074,-67.076008 -30.4891,-73.17383 38.5978,-170.84139 38.5978,-170.84139 z"
+       d="m 1775.1367,-235.56066 c -31.802,-48.52449 -55.2359,-80.47 -18.5537,-138.31938 -88.3855,-107.83546 32.3313,-253.03942 179.5677,-140.55471 55.627,-33.46126 179.2045,-15.78328 222.737,9.38592 94.4003,-58.97513 183.6009,-49.60617 275.8515,62.26479 0,0 161.5922,-100.61402 271.3529,-12.19565 109.7607,88.41838 27.4402,228.66822 27.4402,228.66822 78.6325,49.97673 216.1429,206.884337 27.4402,268.304031 0,0 -33.538,57.929281 -97.5651,67.076009 -64.0271,9.14673 -185.9836,-67.076009 -185.9836,-67.076009 -8.4089,0.934325 -136.5476,120.189959 -320.1354,97.565109 C 1854.5505,102.24909 1855.4463,2.3567377 1855.4463,2.3567377 c 0,0 -88.4183,6.097819 -118.9074,-67.0760077 -30.4891,-73.17383 38.5978,-170.84139 38.5978,-170.84139 z"
        id="path4127"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccsccscscsc" />
     <text
        sodipodi:linespacing="125%"
        x="1223.5713"
-       y="601.76398"
+       y="644.35663"
        id="text3225"
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold"><tspan
          x="1223.5713"
-         y="601.76398"
+         y="644.35663"
          id="tspan6183"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold">...A fast and lightweight development environment</tspan></text>
     <path
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f7f7f6;fill-opacity:1;stroke:#babdb6;stroke-width:25.242;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans"
-       d="m 1561.2242,-2859.5678 c -153.7424,-160.1578 -306.0573,-23.3133 -324.7095,23.0375 -20.5582,-2.4959 -41.6358,-3.825 -63.1389,-3.825 -21.6741,0 -42.9341,1.3537 -63.6473,3.8887 -192.53924,-195.9972 -600.8958,-140.5897 -501.17972,160.0402 -197.08208,34.2588 -339.96041,135.7908 -339.96041,255.7264 0,32.2358 10.32453,63.1367 29.24791,91.7657 -29.28365,25.6565 -47.85406,63.7902 -47.85406,106.396 0,51.6762 27.32975,96.8057 67.95141,121.0261 -83.24617,48.6453 -136.10617,121.2852 -136.10617,202.4647 0,129.5043 134.49546,237.3073 312.33927,260.5395 -9.69229,21.8518 -14.87815,44.905 -14.87815,68.7525 0,100.0039 91.24312,186.3202 223.20599,226.5297 -118.55014,30.6327 -204.63372,122.4945 -204.63372,231.0239 0,133.5861 130.42966,241.8611 291.29295,241.8611 140.52367,0 257.7811,-82.63465 285.1925,-192.5838 2.0061,0.1709 4.0291,0.255 6.0666,0.255 0.2838,0 0.5642,0 0.8472,0 12.7731,110.68821 169.816,198.16172 361.6846,198.16172 127.4179,0 239.4524,-38.59813 304.1038,-96.92932 44.3632,-7.4143 86.7627,-19.00609 126.4811,-34.26468 199.455,221.82016 622.2157,107.72613 430.5156,-151.33732 283.0163,206.45245 480.0699,-156.0208 314.3962,-245.6766 244.3353,16.8803 279.6743,-333.8063 31.1047,-402.2491 332.3566,-43.8764 222.8633,-488.2466 94.4464,-515.9355 221.1216,-284.6735 -74.6381,-438.8833 -278.4034,-416.3059 57.0039,-332.622 -254.6559,-314.8547 -423.5262,-168.0403 -73.5554,-314.0157 -434.9325,-184.1588 -480.8387,35.6788 z m 72.7771,160.1958 c 0.8619,25.137 3.1318,49.424 6.7105,72.5137 -4.9897,-22.4775 -13.4127,-44.0856 -24.876,-64.5133 6.3819,-2.537 12.4382,-5.2157 18.1655,-8.0004 z m 10.1673,92.3394 c 0.1626,0.845 0.3422,1.677 0.5084,2.5181 -0.08,0.01 -0.1577,0.024 -0.2373,0.032 -0.099,-0.8479 -0.1624,-1.7039 -0.2711,-2.55 z M 302.64881,-1447.3587 c -46.20543,0 -83.64294,28.7224 -83.64294,64.1308 0,35.4084 37.43751,64.099 83.64294,64.099 46.20542,0 83.67683,-28.6906 83.67683,-64.099 0,-35.4084 -37.47141,-64.1308 -83.67683,-64.1308 z m 778.81479,88.1958 c 0.9042,11.6061 2.3995,23.082 4.4396,34.4241 -1.8161,-0.1397 -3.6486,-0.2231 -5.4903,-0.2231 -30.6698,0 -57.9903,19.6178 -75.5769,50.1698 -20.6057,-18.8435 -44.74353,-34.9521 -71.54379,-47.6518 53.89855,-5.6683 104.09649,-18.4192 148.17139,-36.719 z"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f7f7f6;fill-opacity:1;stroke:#babdb6;stroke-width:25.24200058;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans"
+       d="m 1561.2242,-2816.9751 c -153.7424,-160.1578 -306.0573,-23.3133 -324.7095,23.0375 -20.5582,-2.4959 -41.6358,-3.825 -63.1389,-3.825 -21.6741,0 -42.9341,1.3537 -63.6473,3.8887 -192.53924,-195.9972 -600.8958,-140.5897 -501.17972,160.0402 -197.08208,34.2588 -339.96041,135.7908 -339.96041,255.7264 0,32.2358 10.32453,63.1367 29.24791,91.7657 -29.28365,25.6565 -47.85406,63.7902 -47.85406,106.396 0,51.6762 27.32975,96.8057 67.95141,121.0261 -83.24617,48.6453 -136.10617,121.2852 -136.10617,202.4647 0,129.5043 134.49546,237.3073 312.33927,260.5395 -9.69229,21.8518 -14.87815,44.905 -14.87815,68.7525 0,100.0039 91.24312,186.3202 223.20599,226.5297 -118.55014,30.6327 -204.63372,122.4945 -204.63372,231.0239 0,133.58607 130.42966,241.86107 291.29295,241.86107 140.52367,0 257.7811,-82.63465 285.1925,-192.58377 2.0061,0.1709 4.0291,0.255 6.0666,0.255 0.2838,0 0.5642,0 0.8472,0 12.7731,110.68818 169.816,198.16169 361.6846,198.16169 127.4179,0 239.4524,-38.59813 304.1038,-96.92932 44.3632,-7.4143 86.7627,-19.00609 126.4811,-34.26468 199.455,221.82016 622.2157,107.72613 430.5156,-151.33729 283.0163,206.45242 480.0699,-156.0208 314.3962,-245.6766 244.3353,16.8803 279.6743,-333.8063 31.1047,-402.2491 332.3566,-43.8764 222.8633,-488.2466 94.4464,-515.9355 221.1216,-284.6735 -74.6381,-438.8833 -278.4034,-416.3059 57.0039,-332.622 -254.6559,-314.8547 -423.5262,-168.0403 -73.5554,-314.0157 -434.9325,-184.1588 -480.8387,35.6788 z m 72.7771,160.1958 c 0.8619,25.137 3.1318,49.424 6.7105,72.5137 -4.9897,-22.4775 -13.4127,-44.0856 -24.876,-64.5133 6.3819,-2.537 12.4382,-5.2157 18.1655,-8.0004 z m 10.1673,92.3394 c 0.1626,0.845 0.3422,1.677 0.5084,2.5181 -0.08,0.01 -0.1577,0.024 -0.2373,0.032 -0.099,-0.8479 -0.1624,-1.7039 -0.2711,-2.55 z M 302.64881,-1404.766 c -46.20543,0 -83.64294,28.7224 -83.64294,64.1308 0,35.4084 37.43751,64.099 83.64294,64.099 46.20542,0 83.67683,-28.6906 83.67683,-64.099 0,-35.4084 -37.47141,-64.1308 -83.67683,-64.1308 z m 778.81479,88.1958 c 0.9042,11.6061 2.3995,23.082 4.4396,34.4241 -1.8161,-0.1397 -3.6486,-0.2231 -5.4903,-0.2231 -30.6698,0 -57.9903,19.6178 -75.5769,50.1698 -20.6057,-18.8435 -44.74353,-34.9521 -71.54379,-47.6518 53.89855,-5.6683 104.09649,-18.4192 148.17139,-36.719 z"
        id="text4361"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccsccscscscscsscscsccccccccccccccccccsssssccsccc" />
@@ -598,10 +598,10 @@
        sodipodi:cy="1587.278"
        sodipodi:rx="28.571428"
        sodipodi:ry="2.8571429"
-       d="m -142.85715,1587.278 c 0,1.5779 -12.79186,2.8571 -28.57142,2.8571 -15.77957,0 -28.57143,-1.2792 -28.57143,-2.8571 0,-1.578 12.79186,-2.8572 28.57143,-2.8572 15.77956,0 28.57142,1.2792 28.57142,2.8572 z"
-       transform="translate(0,-3267.8429)" />
+       d="m -142.85715,1587.278 a 28.571428,2.8571429 0 1 1 -57.14285,0 28.571428,2.8571429 0 1 1 57.14285,0 z"
+       transform="translate(0,-3225.2502)" />
     <g
-       transform="matrix(1.9615576,0,0,1.9615576,191.3966,788.4725)"
+       transform="matrix(1.9615576,0,0,1.9615576,191.3966,831.06517)"
        id="layer1-2-1-1"
        inkscape:label="Ebene 1">
       <path
@@ -793,25 +793,25 @@
     </g>
     <path
        style="fill:#f7f7f6;fill-opacity:1;stroke:#babdb6;stroke-width:25;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 351.28562,-116.92128 c -41.77424,-31.70265 -49.91676,-91.26875 -18.21407,-133.04305 31.70263,-41.77422 91.24379,-49.93557 133.01804,-18.23293 41.77424,31.70265 49.96059,91.2627 18.25796,133.03692 -31.70269,41.774301 -91.28768,49.941711 -133.06193,18.23906 z m -23.64692,-246.2257 c -63.20203,-47.96427 -71.37184,-143.85904 -18.93332,-215.57961 -0.35326,-1.29636 -0.70007,-2.5882 -1.02175,-3.87465 -1.20498,-0.87266 -2.40454,-1.74623 -3.59757,-2.65163 -67.74315,-51.41068 -90.01429,-136.13243 -49.73332,-189.21023 31.80606,-41.9105 93.11259,-51.5382 150.84497,-28.4383 117.19893,-133.84924 255.19539,-7.2133 251.17468,73.47633 37.0264,4.54186 83.02358,-1.29769 126.38284,31.63505 73.42178,55.76619 66.8802,113.35149 65.8517,142.40256 -0.86642,24.47281 -13.80922,79.18662 -87.05359,95.36669 61.64471,32.49679 60.31975,99.49245 28.04891,143.15215 -14.19976,19.21107 -36.88446,30.3064 -64.65235,34.37752 -2.71773,6.23658 -6.16434,12.15476 -10.37562,17.70391 -37.09885,48.88476 -119.03677,49.16468 -183.03139,0.5989 -30.86198,-23.42128 -51.92023,-53.93167 -61.28271,-84.71793 -47.87697,20.22683 -101.79669,16.74135 -142.62148,-14.24076 z"
+       d="m 351.28562,-74.32861 c -41.77424,-31.70265 -49.91676,-91.26875 -18.21407,-133.04305 31.70263,-41.77422 91.24379,-49.93557 133.01804,-18.23293 41.77424,31.70265 49.96059,91.2627 18.25796,133.03692 -31.70269,41.774301 -91.28768,49.941711 -133.06193,18.23906 z m -23.64692,-246.2257 c -63.20203,-47.96427 -71.37184,-143.85904 -18.93332,-215.57961 -0.35326,-1.29636 -0.70007,-2.5882 -1.02175,-3.87465 -1.20498,-0.87266 -2.40454,-1.74623 -3.59757,-2.65163 -67.74315,-51.41068 -90.01429,-136.13243 -49.73332,-189.21023 31.80606,-41.9105 93.11259,-51.5382 150.84497,-28.4383 117.19893,-133.84924 255.19539,-7.2133 251.17468,73.47633 37.0264,4.54186 83.02358,-1.29769 126.38284,31.63505 73.42178,55.76619 66.8802,113.35149 65.8517,142.40256 -0.86642,24.47281 -13.80922,79.18662 -87.05359,95.36669 61.64471,32.49679 60.31975,99.49245 28.04891,143.15215 -14.19976,19.21107 -36.88446,30.3064 -64.65235,34.37752 -2.71773,6.23658 -6.16434,12.15476 -10.37562,17.70391 -37.09885,48.88476 -119.03677,49.16468 -183.03139,0.5989 -30.86198,-23.42128 -51.92023,-53.93167 -61.28271,-84.71793 -47.87697,20.22683 -101.79669,16.74135 -142.62148,-14.24076 z"
        id="path5220"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ssssssccssccsscscsscs" />
     <text
        x="1960.4305"
-       y="835.67279"
+       y="878.26544"
        id="text4489"
        xml:space="preserve"
        style="font-size:96px;fill:#ffffff;fill-opacity:1"><tspan
          x="1960.4305"
-         y="835.67279"
+         y="878.26544"
          id="tspan4491"
          style="font-size:96px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold">www.geany.org</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot3627"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="translate(-25.692219,-3157.2715)"><flowRegion
+       transform="translate(-25.692219,-3114.6788)"><flowRegion
          id="flowRegion3629"><rect
            id="rect3631"
            width="697.14288"
@@ -824,79 +824,79 @@
        style="font-size:35.6428299px;font-style:normal;font-weight:normal;fill:#001745;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        xml:space="preserve"
        id="text3307-2"
-       y="-435.82889"
+       y="-393.40842"
        x="1913.4498"
        transform="scale(0.99595731,1.0040591)"><tspan
          style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#001745;fill-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold"
          id="tspan3309-0"
-         y="-435.82889"
+         y="-393.40842"
          x="1913.4498">Contact</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4718"
-       y="-2287.4626"
+       y="-2244.8699"
        x="404.20886"
-       style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#a40000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#a40000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        xml:space="preserve"><tspan
-         y="-2287.4626"
+         y="-2244.8699"
          x="404.20886"
          id="tspan4720"
          sodipodi:role="line"
-         style="font-size:100px;-inkscape-font-specification:Droid Sans;font-family:Droid Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">fast &amp; lightweight</tspan></text>
+         style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">fast &amp; lightweight</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4722"
-       y="-2389.8296"
+       y="-2347.2368"
        x="1706.1178"
        style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        xml:space="preserve"><tspan
-         y="-2389.8296"
+         y="-2347.2368"
          x="1706.1178"
          id="tspan4724"
          sodipodi:role="line">easily customisable</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4726"
-       y="-1967.6516"
+       y="-1925.059"
        x="1657.0096"
        style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#a40000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        xml:space="preserve"><tspan
          style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#a40000;fill-opacity:1;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
-         y="-1967.6516"
+         y="-1925.059"
          x="1657.0096"
          id="tspan4728"
          sodipodi:role="line">50+ supported file types</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4730"
-       y="-1560.8522"
+       y="-1518.2595"
        x="760.08411"
        style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        xml:space="preserve"><tspan
-         y="-1560.8522"
+         y="-1518.2595"
          x="760.08411"
          id="tspan4732"
          sodipodi:role="line">syntax highlighting</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4734"
-       y="-1698.4998"
+       y="-1655.9071"
        x="1849.2996"
-       style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        xml:space="preserve"><tspan
-         y="-1698.4998"
+         y="-1655.9071"
          x="1849.2996"
          id="tspan4736"
          sodipodi:role="line"
-         style="font-size:100px;-inkscape-font-specification:Droid Sans;font-family:Droid Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">few depencies</tspan></text>
+         style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">few depencies</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4738"
-       y="-1380.6492"
+       y="-1338.0565"
        x="1793.7606"
        style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#a40000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        xml:space="preserve"><tspan
-         y="-1380.6492"
+         y="-1338.0565"
          x="1793.7606"
          id="tspan4740"
          sodipodi:role="line"
@@ -904,33 +904,33 @@
     <text
        sodipodi:linespacing="125%"
        id="text4742"
-       y="-1136.736"
+       y="-1094.1433"
        x="719.88116"
        style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#a40000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        xml:space="preserve"><tspan
-         y="-1136.736"
+         y="-1094.1433"
          x="719.88116"
          id="tspan4744"
          sodipodi:role="line">Scintilla based</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4746"
-       y="-2134.4363"
+       y="-2091.8435"
        x="1167.7363"
        style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        xml:space="preserve"><tspan
-         y="-2134.4363"
+         y="-2091.8435"
          x="1167.7363"
          id="tspan4748"
          sodipodi:role="line">symbol browser</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4750"
-       y="-2555.2566"
+       y="-2512.6638"
        x="662.33209"
-       style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        xml:space="preserve"><tspan
-         y="-2555.2566"
+         y="-2512.6638"
          x="662.33209"
          id="tspan4752"
          sodipodi:role="line">embedded terminal</tspan></text>
@@ -938,101 +938,101 @@
        xml:space="preserve"
        style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        x="359.55905"
-       y="-1880.278"
+       y="-1837.6853"
        id="text4754"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4756"
          x="359.55905"
-         y="-1880.278">many plugins available</tspan></text>
+         y="-1837.6853">many plugins available</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        x="1633.5084"
-       y="-1100.3273"
+       y="-1057.7346"
        id="text4758"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4760"
          x="1633.5084"
-         y="-1100.3273">Themable</tspan></text>
+         y="-1057.7346">Themable</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#a40000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        x="1714.318"
-       y="-2729.8499"
+       y="-2687.2571"
        id="text4762"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="1714.318"
-         y="-2729.8499"
+         y="-2687.2571"
          id="tspan3335">multiplattform</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#001745;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        x="1905.7144"
-       y="-297.82095"
+       y="-255.22829"
        id="text4787"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="1905.7144"
-         y="-297.82095"
+         y="-255.22829"
          id="tspan4791">Web:</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#001745;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        x="2165.7671"
-       y="-297.82095"
+       y="-255.22829"
        id="text4797"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4799"
          x="2165.7671"
-         y="-297.82095">http://geany.org</tspan></text>
+         y="-255.22829">http://geany.org</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#001745;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        x="1905.7144"
-       y="-187.45432"
+       y="-144.86165"
        id="text4801"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4803"
          x="1905.7144"
-         y="-187.45432">Email:</tspan></text>
+         y="-144.86165">Email:</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#001745;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        x="2165.7671"
-       y="-192.37207"
+       y="-149.7794"
        id="text4805"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4807"
          x="2165.7671"
-         y="-192.37207">team@geany.org</tspan></text>
+         y="-149.7794">team@geany.org</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#001745;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        x="1905.7144"
-       y="-70.134521"
+       y="-27.541851"
        id="text4809"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4811"
          x="1905.7144"
-         y="-70.134521">IRC:</tspan></text>
+         y="-27.541851">IRC:</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#001745;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
        x="2165.7671"
-       y="-81.29155"
+       y="-38.698879"
        id="text4813"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4815"
          x="2165.7671"
-         y="-81.29155">#geany @freenode</tspan></text>
+         y="-38.698879">#geany @freenode</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot4819"
