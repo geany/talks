@@ -458,7 +458,7 @@
        fx="1493.1573"
        fy="-1049.572"
        r="1486.1084"
-       gradientTransform="matrix(1.6385377,-0.42308426,0.47211337,1.8284194,-457.92027,1501.2172)"
+       gradientTransform="matrix(1.6385377,-0.42308426,0.47211337,1.8284194,-457.92027,1499.2172)"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -468,16 +468,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="2734.2306"
-     inkscape:cy="1874.1749"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="2210.8832"
+     inkscape:cy="2913.1348"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="984"
+     inkscape:window-width="1600"
+     inkscape:window-height="804"
      inkscape:window-x="0"
      inkscape:window-y="31"
      inkscape:window-maximized="1">
@@ -550,7 +550,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -560,12 +560,12 @@
      id="layer1"
      transform="translate(0,3160.6307)">
     <rect
-       style="fill:url(#radialGradient4221);fill-opacity:1;stroke:#babdb6;stroke-width:29.01143074000000155;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:url(#radialGradient4221);fill-opacity:1;stroke:#babdb6;stroke-width:29.01143074;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect6093"
        width="2943.2053"
        height="4182.8315"
        x="21.554789"
-       y="-3140.9878"
+       y="-3142.9878"
        ry="73.399307" />
     <path
        style="opacity:1;fill:#f2f2f1;fill-opacity:1;stroke:#babdb6;stroke-width:26.93620110000000167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -598,7 +598,7 @@
        sodipodi:cy="1587.278"
        sodipodi:rx="28.571428"
        sodipodi:ry="2.8571429"
-       d="m -142.85715,1587.278 a 28.571428,2.8571429 0 1 1 -57.14285,0 28.571428,2.8571429 0 1 1 57.14285,0 z"
+       d="m -142.85715,1587.278 c 0,1.5779 -12.79186,2.8571 -28.57142,2.8571 -15.77957,0 -28.57143,-1.2792 -28.57143,-2.8571 0,-1.578 12.79186,-2.8572 28.57143,-2.8572 15.77956,0 28.57142,1.2792 28.57142,2.8572 z"
        transform="translate(0,-3225.2502)" />
     <g
        transform="matrix(1.9615576,0,0,1.9615576,191.3966,831.06517)"
@@ -953,9 +953,9 @@
        id="text4758"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4760"
          x="1633.5084"
-         y="-1057.7346">Themable</tspan></text>
+         y="-1057.7346"
+         id="tspan3155">themable</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#a40000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
@@ -966,7 +966,7 @@
          sodipodi:role="line"
          x="1714.318"
          y="-2687.2571"
-         id="tspan3335">multiplatform</tspan></text>
+         id="tspan3335">cross-platform</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#001745;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
@@ -988,7 +988,7 @@
          sodipodi:role="line"
          id="tspan4799"
          x="2165.7671"
-         y="-255.22829">http://geany.org</tspan></text>
+         y="-255.22829">www.geany.org</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#001745;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
@@ -1043,5 +1043,15 @@
            height="367.69553"
            x="1402.0917"
            y="2804.8396" /></flowRegion><flowPara
-         id="flowPara4825" /></flowRoot>  </g>
+         id="flowPara4825" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3159"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3161"><rect
+           id="rect3163"
+           width="42.857143"
+           height="205.71429"
+           x="3934.2859"
+           y="2990.135" /></flowRegion><flowPara
+         id="flowPara3165"></flowPara></flowRoot>  </g>
 </svg>
