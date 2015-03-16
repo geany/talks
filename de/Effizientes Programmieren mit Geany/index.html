@@ -35,6 +35,8 @@
     </head>
 
     <body>
+        <!-- Man möge mir das Inline verzeien -->
+        <div style="position: absolute; right: 10px; top: 10px;display: block;"><img height="75pt" src="../../img/geany.svg" alt="Logo von Geany"/></div>
 
         <div class="reveal">
             <div class="slides">
@@ -54,8 +56,8 @@
                         <ol>
                             <li>Allgemeines</li>
                             <li>Syntaxhighlighting</li>
-                            <li>Das Build Menu</li>
                             <li>Symbol Browser und Standard Seitenleiste</li>
+                            <li>Das Build Menu</li>
                             <li>Codeschnipsel bzw. Snippets</li>
                             <li>Datei-Vorlagen</li>
                             <li>Autovervollständigung und Tag-Dateien</li>
@@ -105,10 +107,49 @@
                                 <li>... Dateiendung</li>
                                 <li>... Spezielle Charakteristika z.B. Shebang</li>
                                 </ul></li>
-                            <li>Manuelles setzen <ul>
+                            <li>Manuelles Setzen <ul>
                                 <li>... beim Laden </li>
                                 <li>... über Menü</li>
                                 </ul></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Custom Filetypes</h3>
+                        <ul>
+                            <li>Möglichkeit zur Erweiterung mit eigenen Dateitypen</li>
+                            <li><strong>Einfach:</strong> Neue Konfiguration für existierenden Lexer</li>
+                            <li><strong>Schwieriger:</strong> Eigener Lexer für Scintilla</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Konfigurationsdateien für Dateitypen</h3>
+                        Darüber können u.a. konfiguriert werden
+                        <ul>
+                            <li>Keywords einer Sprache</li>
+                            <li>Optionen für den Lexer</li>
+                            <li>Zeichen für Auskommentierungen</li>
+                            <li>Farben und Stile für Syntaxhervorhebung</li>
+                            <li>.... </li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Symbol-Browser und standard Seitenleiste</h1>
+                    </section>
+                    <section>
+                        <h3>Symbolbrowser</h3>
+                        <ul>
+                            <li>Listet wichtige Variablen, Funktions auf</li>
+                            <li>Einfache Navigation mit z.B. Maus</li>
+                            <li>Aktualisierung entweder beim Speichern ODER beim Tippen</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Dokumentenliste</h3>
+                        <ul>
+                            <li>Listet alle geöffneten Dokumente auf</li>
+                            <li>Optional mit kompletten Pfad</li>
                         </ul>
                     </section>
                 </section>
@@ -116,10 +157,14 @@
                     <section>
                         <h1>Das Build Menu</h1>
                     </section>
-                </section>
-                <section>
                     <section>
-                        <h1>Symbol-Browser und standard Seitenleiste</h1>
+                        <h3>Inhalte des Build Menus</h3>
+                        <ul>
+                            <li>Besteht aus Dateityp-abhängigen und -unabhängigen Einträgen</li>
+                            <li>Kann angepasst werden</li>
+                            <li>Kann Projekt-spezifische Kommandos beinhalten</li>
+                        </ul>
+                        <img src="img/build_menu.svg" alt="Das LaTeX-Build-Menü von Geany">
                     </section>
                 </section>
                 <section>
