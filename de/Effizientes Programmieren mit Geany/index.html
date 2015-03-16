@@ -58,8 +58,8 @@
                             <li>Syntaxhighlighting</li>
                             <li>Symbol Browser und Standard Seitenleiste</li>
                             <li>Das Build Menu</li>
+                            <li>Datei-Vorlagen und andere Templates</li>
                             <li>Codeschnipsel bzw. Snippets</li>
-                            <li>Datei-Vorlagen</li>
                             <li>Autovervollständigung und Tag-Dateien</li>
                             <li>Externe Werkzeuge</li>
                             <li>Plugins</li>
@@ -75,7 +75,8 @@
                             <ul>
                                 <li>Aufzeigen von Funktionen, mit denen man effizient (in Geany) programmieren kann</li>
                                 <li>Kein HowTo, wie Geany wie Eclipse oder Visual* funktioniert</li>
-                                <li>Zielgruppe: Nutzer von Geany oder wleche, die es werden wollen</li>
+                                <li>Zielgruppe: Nutzer von Geany oder solche, die es werden wollen</li>
+                                <li>Keine Lesung der Dokumentation</li>
                             </ul>
                     </section>
                     <section>
@@ -90,6 +91,15 @@
                             <li>Basierend auf Scintilla und Gtk2 (2.24)
                                 bzw. Gtk3 (experimental) </li>
                             <li>Lizenz: GPLv2+</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Über mich</h3>
+                        <ul>
+                            <li>Proffesioneller Nerd mit wirtschaftlichen Hintergrund in einer Datenbank-Firma</li>
+                            <li>Nutzer von Geany seit knapp 10 Jahren</li>
+                            <li>Maintainer der Plugins</li>
+                            <li>Übersetzungskoordinator</li>
                         </ul>
                     </section>
                 </section>
@@ -155,10 +165,10 @@
                 </section>
                 <section>
                     <section>
-                        <h1>Das Build Menu</h1>
+                        <h1>Das Erstellen-Menü</h1>
                     </section>
                     <section>
-                        <h3>Inhalte des Build Menus</h3>
+                        <h3>Inhalte des Erstellen-Menüs</h3>
                         <ul>
                             <li>Besteht aus Dateityp-abhängigen und -unabhängigen Einträgen</li>
                             <li>Kann angepasst werden</li>
@@ -166,20 +176,88 @@
                         </ul>
                         <img src="img/build_menu.svg" alt="Das LaTeX-Build-Menü von Geany">
                     </section>
+                    <section>
+                        <h3>Erweitertes Beispiel: pylint</h3>
+                        <ul>
+                            <li>Für die Befehle können Filter hinterlegt werden</li>
+                            <li>Gut geeignet, um "Linter" zu inkludieren</li>
+                            <li>Im <a href="http://wiki.geany.org/howtos/check_python_code?s[]=pylint">Wiki</a> gibt eine Anleitung dazu</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Datei-Vorlagen und andere Templates</h1>
+                    </section>
+                    <section>
+                        <h3>Templates</h3>
+                        <ul>
+                            <li>Sparen Arbeit beim Tippen von immer gleichen Sachen</li>
+                            <li>Viele Platzhalter vorhanden: <ul>
+                                    <li>ChangeLog-Eintrag</li>
+                                    <li>Datein-Header</li>
+                                    <li>Funktionsbeschreibung</li>
+                                    <li>Short GPL notice</li>
+                                    <li>Short BSD notice</li>
+                                    <li>Datei templates</li>
+                                </ul></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Verfügbare Platzhalter (Auswahl)</h3>
+                        <ul>
+                            <li>Name: <code>developer</code></li>
+                            <li>Datum: <code>datetime</code></li>
+                            <li>Dateiname: <code>filename</code></li>
+                            <li>Ausgabe eines Kommandos: <code>command:kommando</code></li>
+                            <li>GPL: <code>gpl</code></li>
+                        </ul>
+                    </section>
                 </section>
                 <section>
                     <section>
                         <h1>Codeschnipsel bzw. Snippets</h1>
                     </section>
-                </section>
-                <section>
                     <section>
-                        <h1>Datei-Vorlagen</h1>
+                        <h3>Snippets</h3>
+                        <ul>
+                            <li>Wiederkehrende Textpassage können mit "Abkürzung" versehen werden</li>
+                            <li>Generische Schnipsel sowie Dateityp-spezifische</li>
+                            <li>Konfiguration über Konfigurationsdatei</li>
+                            <li>Über Werkzeuge-Menü zu erreichen</li>
+                            <li>Beispiele gibt es im <a href="http://wiki.geany.org/snippets/start">Wiki->Snippets</a></li>
+                        </ul>
                     </section>
+<!--
+                    <section>
+                        <h3>Beispiel RegEx</h3>
+                        <code>
+                            domain=[._[:alnum:]-]+
+                            host=[._[:alnum:]-]+
+                            ip=[0-9A-Fa-f.:]+
+                            email=[._+=[:alnum:]-]+@[._[:alnum:]-]+
+                            date=\w{3} [ :0-9]{11}
+                        </code>l
+                    </section>
+-->
                 </section>
+
                 <section>
                     <section>
                         <h1>Autovervoll-ständigung und Tag-Dateien</h1>
+                    </section>
+                    <section>
+                        <h3>Funktionsweise</h3>
+                        <ul>
+                            <li>Kombination aus statischen Ansatz + aktuelle Sitzung</li>
+                            <li>Konfigurierbar:<ul>
+                                    <li>... wieviele Buchstaben für Vorschläge</li>
+                                    <li>... häufige Wörter ebenfalls vorgeschlagen werden (LaTeX, HTML)</li>
+                                </ul></li>
+                            <li>Statische "Tags" werden aus Datei geladen</li>
+                            <li>Dateityp-spezifisch</li>
+                            <li>Im <a href="http://wiki.geany.org/tags/start">Wiki->Tags</a> Liste mit vielen verfügbaren Tag-Dateien</li>
+                        </ul>
                     </section>
                 </section>
                 <section>
@@ -189,12 +267,17 @@
                 </section>
                 <section>
                     <section>
+                        <h1>Sonstige Formatierungshelferlein</h1>
+                    </section>
+                </section>
+                <section>
+                    <section>
                         <h1>Plugins</h1>
                     </section>
                     <section>
                         <h3>Pluginschnittstelle</h3>
                         <ul>
-                            <li>Veile verschiedene Plugins</li>
+                            <li>Viele verschiedene Plugins</li>
                             <li>Schnittstelle in C, Python und Lua</li>
                             <li>Beispiele <ul>
                                 <li>GeanyVC</li>
@@ -204,12 +287,21 @@
                                 <li>DevHelp</li>
                                 <li>Webhelper</li>
                             </ul></li>
-
                         </ul>
                     </section>
                 </section>
                 <section>
                     <h1>Sonst noch Fragen?</h1>
+                </section>
+                <section>
+                    <h1>Resourcen</h1>
+                    Wiki: <a href="https://wiki.geany.org">wiki.geany.org</a><br />
+                    Homepage: <a href="https://geany.org">geany.org</a> <br />
+                    Manual: <a href="http://www.geany.org/manual/">geany.org/manual</a> <br/>
+                    Sexy: <a href="http://geany.sexy">geany.sexy</a> <br />
+                    Github: <a href="https://github.com/geany">github.com/geany</a> <br />
+                    IRC: #geany @ freenode <br />
+
                 </section>
                 <section>
                     <h3>Kontakt</h3>
