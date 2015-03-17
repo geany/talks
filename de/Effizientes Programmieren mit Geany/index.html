@@ -150,7 +150,7 @@
                     <section>
                         <h3>Symbolbrowser</h3>
                         <ul>
-                            <li>Listet wichtige Variablen, Funktions auf</li>
+                            <li>Listet wichtige Variablen, Funktionen auf</li>
                             <li>Einfache Navigation mit z.B. Maus</li>
                             <li>Aktualisierung entweder beim Speichern ODER beim Tippen</li>
                         </ul>
@@ -177,6 +177,11 @@
                         <img src="img/build_menu.svg" alt="Das LaTeX-Build-Menü von Geany">
                     </section>
                     <section>
+                        <h3>Kommandos zum Erstellen konfigurieren</h3>
+                        <img src="img/build_configure_commands.png" alt="Fenster zum Konfigurieren der Build-Kommandos" />
+                        <p>... oder direkt in der Dateityp-Defintions-Konfigurations-Datei</p>
+                    </section>
+                    <section>
                         <h3>Erweitertes Beispiel: pylint</h3>
                         <ul>
                             <li>Für die Befehle können Filter hinterlegt werden</li>
@@ -193,7 +198,7 @@
                         <h3>Templates</h3>
                         <ul>
                             <li>Sparen Arbeit beim Tippen von immer gleichen Sachen</li>
-                            <li>Viele Platzhalter vorhanden: <ul>
+                            <li>Viele Beispiele vorhanden: <ul>
                                     <li>ChangeLog-Eintrag</li>
                                     <li>Datein-Header</li>
                                     <li>Funktionsbeschreibung</li>
@@ -201,6 +206,7 @@
                                     <li>Short BSD notice</li>
                                     <li>Datei templates</li>
                                 </ul></li>
+                            <li>Beispiele können für den Nutzer überschrieben werden</li>
                         </ul>
                     </section>
                     <section>
@@ -211,6 +217,14 @@
                             <li>Dateiname: <code>filename</code></li>
                             <li>Ausgabe eines Kommandos: <code>command:kommando</code></li>
                             <li>GPL: <code>gpl</code></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Datei-Templates</h3>
+                        <ul>
+                            <li>Für oft genutzte Standardaufgaben</li>
+                            <li>Geany stellt eine Auswahl bereit</li>
+                            <li>Eigene Templates ablegen unter <code>~/.config/geany/templates/files</code></li>
                         </ul>
                     </section>
                 </section>
@@ -259,15 +273,40 @@
                             <li>Im <a href="http://wiki.geany.org/tags/start">Wiki->Tags</a> Liste mit vielen verfügbaren Tag-Dateien</li>
                         </ul>
                     </section>
+                    <section>
+                        <h3>Tag-Dateien selbst erstellen</h3>
+                        <p>Ein Beispiel für die Geany-Header:</p>
+                        <p><code>geany -g -P geany.c.tags /usr/local/include/geany/*.h</code></p>
+                    </section>
                 </section>
                 <section>
                     <section>
                         <h1>Externe Werkzeuge</h1>
                     </section>
+                    <section>
+                        <h3>Externe Werkzeuge</h3>
+                        <ul>
+                            <li>Manches können externe Werkzeuge besser</li>
+                            <li>Verschiedene Möglichkeiten <ul>
+                                    <li>Auswahl senden an ... </li>
+                                    <li>Kontextaktionen für das aktuelle Wort</li>
+                                </ul></li>
+                        </ul>
+                    </section>
                 </section>
                 <section>
                     <section>
-                        <h1>Sonstige Formatierungshelferlein</h1>
+                        <h1>Sonstige Formatierungs-helferlein</h1>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Große Zahl vorgefertigter Funktionen <ul>
+                                    <li>Automatische Einrückung bei Funktionen</li>
+                                    <li>Bearbeiten -> Format</li>
+                                    <li>Mit Tastenkürzel zu nutzen</li>
+                                </ul></li>
+                            <li>Rest: -> Externe Werkzeuge</li>
+                        </ul>
                     </section>
                 </section>
                 <section>
@@ -279,7 +318,7 @@
                         <ul>
                             <li>Viele verschiedene Plugins</li>
                             <li>Schnittstelle in C, Python und Lua</li>
-                            <li>Beispiele <ul>
+                            <li>Beispiele: <ul>
                                 <li>GeanyVC</li>
                                 <li>git-changebar</li>
                                 <li>Projekctorganizer</li>
@@ -287,6 +326,75 @@
                                 <li>DevHelp</li>
                                 <li>Webhelper</li>
                             </ul></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>GeanyVC</h3>
+                        <ul>
+                            <li>Generische Anbindung an z.B. SVN, git, hg, cvs</li>
+                            <li>Unterstützt: <ul>
+                                <li>blame</li>
+                                <li>commit (kein push)</li>
+                                <li>diff (auch mit externen Werkzeug)</li>
+                                <li>Status</li>
+                                <li>rm/add</li>
+                            </ul></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>git-changebar</h3>
+                        <ul>
+                            <li>Neues Plugin (ab 1.25)</li>
+                            <li>Markiert Zeilen, die gegenüber dem git-Stand geändert wurden</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Projekctorganizer</h3>
+                        <ul>
+                            <li>Erweitert Geanys Minimalen Projektansatz</li>
+                            <li>Konfigurationsmöglichkeit für im Projekt verwendete Parameter wie
+                                <ul>
+                                    <li>Einzug</li>
+                                    <li>Zeilenumbruch</li>
+                                </ul></li>
+                            <li>Bietet Möglichkeit projektspezifische-Tag-Dateien zu erstellen</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Addons (Erweiterungen)</h3>
+                        <ul>
+                            <li>Sammlung von kleinen Erweiterungen</li>
+                            <li>Beispiele: <ul>
+                                <li>XMLTagging</li>
+                                <li>Anzeige von Lesezeichen in der Seitenleiste</li>
+                                <li>Liste mit TODO und Fixme</li>
+                            </ul></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>DevHelp</h3>
+                        <ul>
+                            <li>Bindet DevHelp in Geany ein</li>
+                            <li>Einfacher Zugriff auf die Dokumentation</li>
+                            <li>Integriertes Browserfenster zum "stöbern"</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Webhelper</h3>
+                        <ul>
+                            <li>(einfacher) Webbrowser im Kontext von Geany</li>
+                            <li>Sehr praktisch bei Entwicklung von Webanwendungen (Django, CSS)</li>
+                            <li>Kann gegebene Seite beim Speichern einer Datei neuladen</li>
+                            <li>Basiert auf WebKit</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>SpellChecker (Rechtschreibprüfung</h3>
+                        <ul>
+                            <li>Bindet Rechtschreibprüfung ein</li>
+                            <li>Unterstützt Aspell-, Myspell-, Hunspell-, ... Wörterbücher</li>
+                            <li>Kann Fehler beim Tippen markieren</li>
+                            <li>Korrekturvorschläge im Editor-Menü</li>
                         </ul>
                     </section>
                 </section>
