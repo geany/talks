@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="de">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Effizientes Programmieren mit Geany</title>
+
+        <meta name="description" content="Wie kann ich die Funktionen von Geany nutzen, um schnell an mein Ziel zu kommen">
+        <meta name="author" content="Frank Lanitz">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+        <link rel="stylesheet" href="reveal/css/reveal.css">
+        <link rel="stylesheet" href="reveal/css/theme/black.css" id="theme">
+
+        <!-- Code syntax highlighting -->
+        <link rel="stylesheet" href="reveal/lib/css/zenburn.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="reveal/lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <!-- Man möge mir das Inline verzeien -->
+        <div style="position: absolute; right: 10px; top: 10px;display: block;"><img height="75pt" src="../../img/geany.svg" alt="Logo von Geany"/></div>
+
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h1>Geany</h1>
+                    <h2>Effizientes Programmieren</h2>
+                    <img src="../../img/geany.svg" width="200px" alt="Geany-Logo">
+                    <p>
+                        <small>von <a href="mailto:frank@geany.org">Frank Lanitz</a></small>
+                    </p>
+                </section>
+                <section>
+                    <section>
+                        <h1>Themen</h1>
+                    </section>
+                    <section>
+                        <ol>
+                            <li>Allgemeines</li>
+                            <li>Syntaxhighlighting</li>
+                            <li>Symbol Browser und standard Seitenleiste</li>
+                            <li>Das Build Menu</li>
+                            <li>Datei-Vorlagen und andere Templates</li>
+                            <li>Codeschnipsel bzw. Snippets</li>
+                            <li>Autovervollständigung und Tag-Dateien</li>
+                            <li>Externe Werkzeuge</li>
+                            <li>Plugins</li>
+                        </ol>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Allgemeines</h1>
+                    </section>
+                    <section>
+                        <h3>Zielgruppe/Zielstellung</h3>
+                            <ul>
+                                <li>Aufzeigen von Funktionen, mit denen man effizient (in Geany) programmieren kann</li>
+                                <li>Kein HowTo, wie Geany wie Eclipse oder Visual* funktioniert</li>
+                                <li>Zielgruppe: Nutzer von Geany oder solche, die es werden wollen</li>
+                                <li>Keine Lesung der Dokumentation</li>
+                            </ul>
+                    </section>
+                    <section>
+                        <h3>Über Geany</h3>
+                        <ul>
+                            <li>Editor mit Funktionen einer Entwicklungsumgebung (IDE)</li>
+                            <li>Entwicklung seit 2005</li>
+                            <li>Aktuelle Version 1.24.1 aus April 2014</li>
+                            <li>Ziel: Geringe Systemanforderungen und wenige
+                                Abhängigkeiten zu anderen Paketen</li>
+                            <li>Realisiert in C mit Teilen in C++</li>
+                            <li>Basierend auf Scintilla und Gtk2 (2.24)
+                                bzw. Gtk3 (experimental) </li>
+                            <li>Lizenz: GPLv2+</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Über mich</h3>
+                        <ul>
+                            <li>Proffesioneller Nerd mit wirtschaftlichen Hintergrund in einer Datenbank-Firma</li>
+                            <li>Nutzer von Geany seit knapp 10 Jahren</li>
+                            <li>Maintainer der Plugins</li>
+                            <li>Übersetzungskoordinator</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Syntaxher-vorherbung</h1>
+                    </section>
+                    <section>
+                        <h3>Syntexhervorhebung</h3>
+                        <ul>
+                            <li>Für mehr als 40 Dateitypen vorhanden</li>
+                            <li>Aus dem Scintilla-Projekt</li>
+                            <li>über sog. Lexer, in C++ geschriebene Klassen</li>
+                            <li>Automatische Erkennung über <ul>
+                                <li>... Dateiendung</li>
+                                <li>... Spezielle Charakteristika z.B. Shebang</li>
+                                </ul></li>
+                            <li>Manuelles Setzen <ul>
+                                <li>... beim Laden </li>
+                                <li>... über Menü</li>
+                                </ul></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Custom Filetypes</h3>
+                        <ul>
+                            <li>Möglichkeit zur Erweiterung mit eigenen Dateitypen</li>
+                            <li><strong>Einfach:</strong> Neue Konfiguration für existierenden Lexer</li>
+                            <li><strong>Schwieriger:</strong> Eigener Lexer für Scintilla</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Konfigurationsdateien für Dateitypen</h3>
+                        Darüber können u.a. konfiguriert werden
+                        <ul>
+                            <li>Keywords einer Sprache</li>
+                            <li>Optionen für den Lexer</li>
+                            <li>Zeichen für Auskommentierungen</li>
+                            <li>Farben und Stile für Syntaxhervorhebung</li>
+                            <li>.... </li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Symbol-Browser und standard Seitenleiste</h1>
+                    </section>
+                    <section>
+                        <h3>Symbolbrowser</h3>
+                        <ul>
+                            <li>Listet wichtige Variablen, Funktionen auf</li>
+                            <li>Einfache Navigation mit z.B. Maus</li>
+                            <li>Aktualisierung entweder beim Speichern ODER beim Tippen</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Dokumentenliste</h3>
+                        <ul>
+                            <li>Listet alle geöffneten Dokumente auf</li>
+                            <li>Optional mit kompletten Pfad</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Das Erstellen-Menü</h1>
+                    </section>
+                    <section>
+                        <h3>Inhalte des Erstellen-Menüs</h3>
+                        <ul>
+                            <li>Besteht aus Dateityp-abhängigen und -unabhängigen Einträgen</li>
+                            <li>Kann angepasst werden</li>
+                            <li>Kann Projekt-spezifische Kommandos beinhalten</li>
+                        </ul>
+                        <img src="img/build_menu.svg" alt="Das LaTeX-Build-Menü von Geany">
+                    </section>
+                    <section>
+                        <h3>Kommandos zum Erstellen konfigurieren</h3>
+                        <img src="img/build_configure_commands.png" alt="Fenster zum Konfigurieren der Build-Kommandos" />
+                        <p>... oder direkt in der Dateityp-Defintions-Konfigurations-Datei</p>
+                    </section>
+                    <section>
+                        <h3>Erweitertes Beispiel: pylint</h3>
+                        <ul>
+                            <li>Für die Befehle können Filter hinterlegt werden</li>
+                            <li>Gut geeignet, um "Linter" zu inkludieren</li>
+                            <li>Im <a href="http://wiki.geany.org/howtos/check_python_code?s[]=pylint">Wiki</a> gibt eine Anleitung dazu</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Datei-Vorlagen und andere Templates</h1>
+                    </section>
+                    <section>
+                        <h3>Templates</h3>
+                        <ul>
+                            <li>Sparen Arbeit beim Tippen von immer gleichen Sachen</li>
+                            <li>Viele Beispiele vorhanden: <ul>
+                                    <li>ChangeLog-Eintrag</li>
+                                    <li>Datei-Header</li>
+                                    <li>Funktionsbeschreibung</li>
+                                    <li>Short GPL notice</li>
+                                    <li>Short BSD notice</li>
+                                    <li>Datei Templates</li>
+                                </ul></li>
+                            <li>Beispiele können für den Nutzer überschrieben werden</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Verfügbare Platzhalter (Auswahl)</h3>
+                        <ul>
+                            <li>Name: <code>developer</code></li>
+                            <li>Datum: <code>datetime</code></li>
+                            <li>Dateiname: <code>filename</code></li>
+                            <li>Ausgabe eines Kommandos: <code>command:kommando</code></li>
+                            <li>GPL: <code>gpl</code></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Datei-Templates</h3>
+                        <ul>
+                            <li>Für oft genutzte Standardaufgaben</li>
+                            <li>Geany stellt eine Auswahl bereit</li>
+                            <li>Eigene Templates ablegen unter <code>~/.config/geany/templates/files</code></li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Codeschnipsel bzw. Snippets</h1>
+                    </section>
+                    <section>
+                        <h3>Snippets</h3>
+                        <ul>
+                            <li>Wiederkehrende Textpassagen können mit "Abkürzung" versehen werden</li>
+                            <li>Generische Schnipsel sowie Dateityp-spezifische</li>
+                            <li>Konfiguration über Konfigurationsdatei</li>
+                            <li>Über Werkzeuge-Menü zu erreichen</li>
+                            <li>Beispiele gibt es im <a href="http://wiki.geany.org/snippets/start">Wiki->Snippets</a></li>
+                        </ul>
+                    </section>
+<!--
+                    <section>
+                        <h3>Beispiel RegEx</h3>
+                        <code>
+                            domain=[._[:alnum:]-]+
+                            host=[._[:alnum:]-]+
+                            ip=[0-9A-Fa-f.:]+
+                            email=[._+=[:alnum:]-]+@[._[:alnum:]-]+
+                            date=\w{3} [ :0-9]{11}
+                        </code>l
+                    </section>
+-->
+                </section>
+
+                <section>
+                    <section>
+                        <h1>Autovervoll-ständigung und Tag-Dateien</h1>
+                    </section>
+                    <section>
+                        <h3>Funktionsweise</h3>
+                        <ul>
+                            <li>Kombination aus statischen Ansatz + aktuelle Sitzung</li>
+                            <li>Konfigurierbar:<ul>
+                                    <li>... wieviele Buchstaben für Vorschläge</li>
+                                    <li>... häufige Wörter ebenfalls vorgeschlagen werden (LaTeX, HTML)</li>
+                                </ul></li>
+                            <li>Statische "Tags" werden aus Datei geladen</li>
+                            <li>Dateityp-spezifisch</li>
+                            <li>Im <a href="http://wiki.geany.org/tags/start">Wiki->Tags</a> Liste mit vielen verfügbaren Tag-Dateien</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Tag-Dateien selbst erstellen</h3>
+                        <p>Ein Beispiel für die Geany-Header:</p>
+                        <p><code>geany -g -P geany.c.tags /usr/local/include/geany/*.h</code></p>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Externe Werkzeuge</h1>
+                    </section>
+                    <section>
+                        <h3>Externe Werkzeuge</h3>
+                        <ul>
+                            <li>Manches können externe Werkzeuge besser</li>
+                            <li>Verschiedene Möglichkeiten <ul>
+                                    <li>Auswahl senden an ... </li>
+                                    <li>Kontextaktionen für das aktuelle Wort</li>
+                                </ul></li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Sonstige Formatierungs-helferlein</h1>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Große Zahl vorgefertigter Funktionen <ul>
+                                    <li>Automatische Einrückung bei Funktionen</li>
+                                    <li>Bearbeiten -> Format</li>
+                                    <li>Mit Tastenkürzel zu nutzen</li>
+                                </ul></li>
+                            <li>Rest: -> Externe Werkzeuge</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Plugins</h1>
+                    </section>
+                    <section>
+                        <h3>Pluginschnittstelle</h3>
+                        <ul>
+                            <li>Viele verschiedene Plugins</li>
+                            <li>Schnittstelle in C, Python und Lua</li>
+                            <li>Beispiele: <ul>
+                                <li>GeanyVC</li>
+                                <li>git-changebar</li>
+                                <li>Projekctorganizer</li>
+                                <li>Addons</li>
+                                <li>DevHelp</li>
+                                <li>Webhelper</li>
+                                <li>Scope &amp; Debugger</li>
+                            </ul></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>GeanyVC</h3>
+                        <ul>
+                            <li>Generische Anbindung an z.B. SVN, git, hg, cvs</li>
+                            <li>Unterstützt: <ul>
+                                <li>blame</li>
+                                <li>commit (kein push)</li>
+                                <li>diff (auch mit externen Werkzeug)</li>
+                                <li>Status</li>
+                                <li>rm/add</li>
+                            </ul></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>git-changebar</h3>
+                        <ul>
+                            <li>Neues Plugin (ab 1.25)</li>
+                            <li>Markiert Zeilen, die gegenüber dem git-Stand geändert wurden</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Project Organizer</h3>
+                        <ul>
+                            <li>Erweitert Geanys Minimalen Projektansatz</li>
+                            <li>Konfigurationsmöglichkeit für im Projekt verwendete Parameter wie
+                                <ul>
+                                    <li>Einzug</li>
+                                    <li>Zeilenumbruch</li>
+                                </ul>
+                                bereits im Core</li>
+                            <li>Bietet Möglichkeit projektspezifische-Tag-Dateien zu erstellen</li>
+                            <li>Einfachere Navigigation innerhalb des Projektes und Suche</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Addons (Erweiterungen)</h3>
+                        <ul>
+                            <li>Sammlung von kleinen Erweiterungen</li>
+                            <li>Beispiele: <ul>
+                                <li>XMLTagging</li>
+                                <li>Anzeige von Lesezeichen in der Seitenleiste</li>
+                                <li>Liste mit TODO und Fixme</li>
+                            </ul></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>DevHelp</h3>
+                        <ul>
+                            <li>Bindet DevHelp in Geany ein</li>
+                            <li>Einfacher Zugriff auf die Dokumentation</li>
+                            <li>Integriertes Browserfenster zum "stöbern"</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Webhelper</h3>
+                        <ul>
+                            <li>(einfacher) Webbrowser im Kontext von Geany</li>
+                            <li>Sehr praktisch bei Entwicklung von Webanwendungen (Django, CSS)</li>
+                            <li>Kann gegebene Seite beim Speichern einer Datei neuladen</li>
+                            <li>Basiert auf WebKit</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>SpellChecker (Rechtschreibprüfung)</h3>
+                        <ul>
+                            <li>Bindet Rechtschreibprüfung ein</li>
+                            <li>Unterstützt Aspell-, Myspell-, Hunspell-, ... Wörterbücher</li>
+                            <li>Kann Fehler beim Tippen markieren</li>
+                            <li>Korrekturvorschläge im Editor-Menü</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Scope &amp; Debugger</h3>
+                        <ul>
+                            <li>Debuggen von Programmen aus Geany heraus</li>
+                            <li>Anbindungen an gdb</li>
+                            <li>Setzen von Haltepunkte (Breakpoits)</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <h1>Sonst noch Fragen?</h1>
+                </section>
+                <section>
+                    <h1>Resourcen</h1>
+                    Wiki: <a href="https://wiki.geany.org">wiki.geany.org</a><br />
+                    Homepage: <a href="https://geany.org">geany.org</a> <br />
+                    Manual: <a href="http://www.geany.org/manual/">geany.org/manual</a> <br/>
+                    Sexy: <a href="http://geany.sexy">geany.sexy</a> <br />
+                    Github: <a href="https://github.com/geany">github.com/geany</a> <br />
+                    IRC: #geany @ freenode <br />
+
+                </section>
+                <section>
+                    <h3>Kontakt</h3>
+                    <p>Am besten via <a href="http://geany.org">geany.org</a></a></p>
+                    <p>oder gleich noch am Stand</p>
+                </section>
+                <section><h2>Bis später!</h2>
+                <img src="../../img/geany.svg" width="200px" alt="Geany-Logo"></section>
+            </div>
+
+        </div>
+
+        <script src="reveal/lib/js/head.min.js"></script>
+        <script src="reveal/js/reveal.js"></script>
+
+        <script>
+
+            // Full list of configuration options available at:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+                // Optional reveal.js plugins
+                dependencies: [
+                    { src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'reveal/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'reveal/plugin/zoom-js/zoom.js', async: true },
+                    { src: 'reveal/plugin/notes/notes.js', async: true }
+                ]
+            });
+
+        </script>
+
+    </body>
+</html>
